@@ -1,6 +1,6 @@
 {
-  "version": "20261103-2157",
-  "sha256": "c27ddce4742c0bf44ad00297bbed1a3413e1de6f256fc748d06d00be91d45d72",
-  "size": 6265218,
-  "notes": "Carry On убран из сборки — сервер больше не выкидывает при смерти"
+  "version": "20261110-0050",
+  "sha256": "b63aa8c47d67abc6af8fa9bc050bb79fe83a83865b91b9986d4cb1514afc4c94",
+  "size": 6273916,
+  "notes": "Дизельные двигатели для самолётов: Create Diesel Generators + Aeronautical Diesel и новая глава квестов"
 }
