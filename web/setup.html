@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><title>Установка Our Place Craft Launcher</title>
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="setup.css"></head>
+<body class="setup">
+<div class="shero" data-drag>
+  <div class="winbtns fixed"><button data-win="min" title="Свернуть"></button><button data-win="close" class="x" title="Закрыть"></button></div>
+  <img class="appicon sicon" src="a/icon.png" alt="">
+  <div class="slogo">
+    <div class="tag">Лаунчер · бета</div>
+  </div>
+</div>
+
+<main class="smain">
+  <!-- step 1: options -->
+  <section class="scard" id="stepForm">
+    <h2>Установка лаунчера</h2>
+    <p class="muted">Лаунчер для серверов Our Place Craft и любых сборок Minecraft: Fabric, Forge, NeoForge, Quilt и импорт с Modrinth.</p>
+
+    <label>Папка установки
+      <div class="row"><input id="root" spellcheck="false"><button class="ghost sm" id="pick">Изменить…</button></div>
+    </label>
+    <p class="hint" id="rootHint">Сюда же лягут сборки, Java и миры. Путь — только латинскими буквами.</p>
+
+    <label>Ваш ник в игре<input id="nick" maxlength="16" placeholder="латиница, цифры и _"></label>
+
+    <div class="opts">
+      <button class="opt on" data-opt="adventure"><span class="sw on"></span><div><b>Установить сборку Our Place Craft: Adventure</b><small id="advNote">Около 700 МБ сборки и 1 ГБ игры. Можно поставить и позже.</small></div></button>
+      <div class="coderow" id="codeRow"><label>Код доступа к сборке<input id="code" type="password" autocomplete="off" placeholder="его даёт владелец сервера"></label></div>
+      <button class="opt on" data-opt="migrate" hidden><span class="sw on"></span><div><b>Перенести всё из старого лаунчера и удалить его</b><small id="migNote">Миры, настройки, управление и сборка переедут сюда, ничего не скачивается заново. Старый лаунчер и его ярлык удалятся.</small></div></button>
+      <button class="opt on" data-opt="desktop"><span class="sw on"></span><div><b>Ярлык на рабочем столе</b><small>Ярлык в меню «Пуск» создаётся всегда.</small></div></button>
+      <button class="opt danger" data-opt="clean" hidden><span class="sw"></span><div><b>Переустановить с нуля</b><small>Удалит сборки и файлы игры в этой папке. Миры сохранятся в «Документах».</small></div></button>
+    </div>
+
+    <div class="sfoot">
+      <span class="err" id="err"></span>
+      <button class="play big" id="go">УСТАНОВИТЬ</button>
+    </div>
+  </section>
+
+  <!-- step 2: progress -->
+  <section class="scard" id="stepWork" hidden>
+    <h2 id="workTitle">Устанавливаем…</h2>
+    <p class="muted" id="workStage">Готовимся</p>
+    <div class="progress on big" id="sprog"><i id="sbar"></i></div>
+    <p class="hint" id="workBytes"></p>
+    <p class="hint">Окно можно не трогать — всё скачается само. Если интернет прервётся, установка продолжит с того же места при следующем запуске.</p>
+  </section>
+
+  <!-- step 3: done -->
+  <section class="scard" id="stepDone" hidden>
+    <h2>Готово! 🎉</h2>
+    <p id="doneText">Our Place Craft Launcher установлен.</p>
+    <p class="err" id="doneWarn"></p>
+    <div class="sfoot"><button class="play big" id="start">▶ ЗАПУСТИТЬ ЛАУНЧЕР</button></div>
+  </section>
+</main>
+
+<script src="win.js"></script>
+<script src="setup.js"></script>
+</body></html>

@@ -1,0 +1,48 @@
+name: macOS launcher
+on:
+  push:
+    branches: [launcher-src]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+      - name: Build
+        run: |
+          set -o pipefail
+          V=$(TZ=Europe/Berlin date +%Y%m%d-%H%M)
+          echo "V=$V" >> $GITHUB_ENV
+          mkdir -p out
+          macos/build.sh "$V" "$PWD/out" 2>&1 | tee build-log.txt
+      - name: Publish to branch launcher
+        run: |
+          git config user.name "ARJAYz"
+          git config user.email "ARJAYz@users.noreply.github.com"
+          git fetch origin launcher
+          git worktree add ../pub origin/launcher
+          cp out/OurPlaceCraftLauncher-macOS.zip out/OurPlaceCraftLauncher-macOS-update.zip ../pub/
+          cd ../pub
+          SHA=$(shasum -a 256 OurPlaceCraftLauncher-macOS-update.zip | cut -d' ' -f1)
+          SIZE=$(stat -f%z OurPlaceCraftLauncher-macOS-update.zip)
+          printf '{\n  "version": "%s",\n  "sha256": "%s",\n  "size": %s,\n  "notes": "Лаунчер для macOS"\n}\n' "$V" "$SHA" "$SIZE" > launcher-mac.json
+          git add OurPlaceCraftLauncher-macOS.zip OurPlaceCraftLauncher-macOS-update.zip launcher-mac.json
+          git commit -m "macOS launcher $V"
+          git push origin HEAD:launcher
+      - name: Save log on failure
+        if: failure()
+        run: |
+          git config user.name "ARJAYz"
+          git config user.email "ARJAYz@users.noreply.github.com"
+          cp build-log.txt /tmp/build-log.txt 2>/dev/null || echo "no build log (failed before build)" > /tmp/build-log.txt
+          git checkout --orphan ci-log-mac
+          git rm -rfq . || true
+          cp /tmp/build-log.txt build-log.txt
+          git add build-log.txt
+          git commit -m "macOS build log $(date)"
+          git push -f origin ci-log-mac
