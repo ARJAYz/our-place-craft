@@ -1,6 +1,6 @@
 {
-  "version": "20261110-0050",
-  "sha256": "b63aa8c47d67abc6af8fa9bc050bb79fe83a83865b91b9986d4cb1514afc4c94",
-  "size": 6273916,
-  "notes": "Дизельные двигатели для самолётов: Create Diesel Generators + Aeronautical Diesel и новая глава квестов"
+  "version": "20261110-2245",
+  "sha256": "4eb77ee9dbd94ddbdfb4ff26f3a77b665eb76f9c637063635b939a6ed336ed84",
+  "size": 6275618,
+  "notes": "Полоса игроков над опытом (PlayerLocatorPlus) + выключатель в твиках"
 }
