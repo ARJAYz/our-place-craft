@@ -2,6 +2,7 @@
 # Builds "Our Place Craft Launcher.app" (universal: Apple Silicon + Intel) on a macOS machine.
 # usage: macos/build.sh <version YYYYMMDD-HHMM> <out dir>
 set -euo pipefail
+export MACOSX_DEPLOYMENT_TARGET=11.0
 V="$1"; OUT="$2"
 cd "$(dirname "$0")/.."
 go get github.com/webview/webview_go@latest
