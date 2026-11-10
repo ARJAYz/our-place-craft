@@ -9,6 +9,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 )
 
@@ -24,6 +25,10 @@ type Tweak struct {
 	Glob    string    // built-in: jar name pattern inside mods/
 	Parts   []modPart // downloadable mods switched together
 	Legacy  []string  // older config keys that mean the same tweak
+	// config tweak: the mod must stay installed (the server needs it), the switch only edits its
+	// TOML config (path inside the game folder); keys set to OnKeys or OffKeys
+	TOML            string
+	OnKeys, OffKeys map[string]string
 }
 
 // modPart is one downloadable mod: cached in .opc-tweaks/<Dir>, fetched from Modrinth by slug.
@@ -39,6 +44,10 @@ var tweakList = []Tweak{
 		Desc: "Приближение камеры по клавише, как подзорная труба."},
 	{ID: "ipn", Title: "Inventory Profiles Next — сортировка инвентаря", Default: true, Glob: "InventoryProfilesNext-*.jar",
 		Desc: "Кнопки сортировки и автопополнения в инвентаре и сундуках."},
+	{ID: "locator", Title: "Полоса игроков над опытом", Default: true, TOML: "config/player-locator-plus.toml",
+		OnKeys:  map[string]string{"visible": "true", "acceptServerConfig": "true"},
+		OffKeys: map[string]string{"visible": "false", "acceptServerConfig": "false"},
+		Desc:    "PlayerLocatorPlus: метки игроков над полоской опыта (в какой стороне, далеко ли, выше или ниже). Мод нужен для сервера, выключатель только прячет полосу."},
 	{ID: "blur", Title: "Blur — размытие фона в меню", Default: true, Glob: "blur-neoforge-*.jar",
 		Desc: "Размывает игру за открытыми окнами. Выключите, если не нравится или не хватает FPS."},
 }
@@ -150,6 +159,19 @@ func applyTweaks(root string, cfg Config, prog *Progress) []string {
 	var warns []string
 	for _, t := range tweakList {
 		on := cfg.tweakOn(t)
+		if t.TOML != "" {
+			keys, p := t.OffKeys, filepath.Join(game, filepath.FromSlash(t.TOML))
+			if on {
+				if !fileExists(p) { // the mod writes its defaults on the first start
+					continue
+				}
+				keys = t.OnKeys
+			}
+			if err := setTOMLKeys(p, keys); err != nil {
+				warns = append(warns, t.Title+": "+err.Error())
+			}
+			continue
+		}
 		if t.Glob != "" {
 			warns = append(warns, applyBuiltin(mods, t, on)...)
 			continue
@@ -293,4 +315,53 @@ func tweaksSummary(cfg Config) string {
 		return "без карты"
 	}
 	return strings.Join(on, ", ")
+}
+
+// setTOMLKeys sets top-level keys in a TOML file (creating it if needed), keeping everything else.
+func setTOMLKeys(p string, keys map[string]string) error {
+	b, err := os.ReadFile(p)
+	if err != nil && !os.IsNotExist(err) {
+		return err
+	}
+	lines := strings.Split(strings.ReplaceAll(string(b), "\r\n", "\n"), "\n")
+	done := map[string]bool{}
+	firstTable := len(lines)
+	for i, l := range lines {
+		t := strings.TrimSpace(l)
+		if strings.HasPrefix(t, "[") {
+			if i < firstTable {
+				firstTable = i
+			}
+			break
+		}
+		k, _, ok := strings.Cut(t, "=")
+		if !ok {
+			continue
+		}
+		k = strings.TrimSpace(k)
+		if v, want := keys[k]; want {
+			lines[i] = k + " = " + v
+			done[k] = true
+		}
+	}
+	var add []string
+	for k, v := range keys {
+		if !done[k] {
+			add = append(add, k+" = "+v)
+		}
+	}
+	sort.Strings(add)
+	if len(add) > 0 {
+		head := append([]string{}, lines[:firstTable]...)
+		for len(head) > 0 && strings.TrimSpace(head[len(head)-1]) == "" {
+			head = head[:len(head)-1]
+		}
+		lines = append(append(head, add...), lines[firstTable:]...)
+	}
+	out := strings.TrimRight(strings.Join(lines, "\n"), "\n") + "\n"
+	if out == string(b) {
+		return nil
+	}
+	os.MkdirAll(filepath.Dir(p), 0o755)
+	return os.WriteFile(p, []byte(out), 0o644)
 }
