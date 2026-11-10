@@ -124,10 +124,11 @@ type StateView struct {
 	Locked    bool           `json:"locked"` // our servers are hidden until the access code is entered
 	Update    *UpdateInfo    `json:"update,omitempty"`
 	Version   string         `json:"version"`
+	Root      string         `json:"root"`
 }
 
 func (a *App) State() StateView {
-	st := StateView{Settings: a.store.Settings(), MaxRamMB: maxRamMB(), Locked: len(featured()) == 0, Version: launcherVersion}
+	st := StateView{Instances: []InstanceView{}, Settings: a.store.Settings(), MaxRamMB: maxRamMB(), Locked: len(featured()) == 0, Version: launcherVersion, Root: a.store.Root}
 	st.Settings.Code = "" // never sent to the page
 	for _, in := range a.store.List() {
 		root := a.store.FilesRoot(in)

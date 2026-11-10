@@ -504,7 +504,7 @@ $("#updBtn").onclick = async () => {
   catch (e) { alertBar(e.message); $("#updBtn").disabled = false; }
 };
 async function refresh() {
-  try { S = await api("State"); render(); renderUpdate(); } catch (e) { alertBar("Нет связи с лаунчером: " + e.message); }
+  try { S = await api("State"); S.instances = S.instances || []; if (S.root && $("#about")) $("#about").textContent = "Пробная версия нового лаунчера Our Place Craft. Файлы игр лежат в " + S.root + "."; render(); renderUpdate(); } catch (e) { alertBar("Нет связи с лаунчером: " + e.message); }
 }
 refresh().then(() => { loadServers(); if (S && !S.settings.nick) show("settings"); });
 setInterval(loadServers, 15000);
