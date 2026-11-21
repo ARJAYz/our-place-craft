@@ -1,0 +1,239 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iu_energy"
+	group: "3B0071CCD5F4E81E"
+	icon: {
+		id: "industrialupgrade:basemachine3/solar_iu"
+	}
+	id: "74E870A466E60697"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7AEE04891F5D88BB"
+			rewards: [
+				{ id: "2CD9889BF4777042", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "4619A588C79136FA", item: { count: 1, id: "industrialupgrade:basemachine3/generator_iu" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AEE04891F5D88BB"]
+			id: "7284F73F567CC5A2"
+			rewards: [
+				{ id: "662D93BE9AB009E5", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "52C96F9999554485", item: { count: 1, id: "industrialupgrade:wiring_storage/batbox_iu" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AEE04891F5D88BB"]
+			id: "743C95641EAD162F"
+			rewards: [
+				{ id: "3AF27BD5680F9D34", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "63C334AFD1BC05A4", type: "checkmark" }
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7284F73F567CC5A2"]
+			id: "6B95A1007381CAB6"
+			rewards: [
+				{ id: "28586858F55797B7", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "22AFAEF34DF81421", item: { count: 1, id: "industrialupgrade:wiring_storage/cesu_iu" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B95A1007381CAB6"]
+			id: "307EAFB8C9B2189C"
+			rewards: [
+				{ id: "7162DCEE771D90DA", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "1B94F440E7207E3D", item: { count: 1, id: "industrialupgrade:wiring_storage/mfe_iu" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["307EAFB8C9B2189C"]
+			id: "4E3E15254955411B"
+			rewards: [
+				{ id: "7F5296D3A7E4660D", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "47A6E8BA4DAAFDDD", item: { count: 1, id: "industrialupgrade:wiring_storage/mfsu_iu" }, type: "item" }
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["307EAFB8C9B2189C"]
+			id: "661AC556665B4307"
+			rewards: [
+				{ id: "1993FE2E2772AABB", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "6873FFA223BD61C6", item: { count: 1, id: "industrialupgrade:transformer_iu/lv" }, type: "item" }
+				{ id: "149468C877084B4F", item: { count: 1, id: "industrialupgrade:transformer_iu/mv" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AEE04891F5D88BB"]
+			id: "30F775757BEA66C6"
+			rewards: [
+				{ id: "1D29FBEEB891BED3", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "5E701513D8FF4C36", item: { count: 1, id: "industrialupgrade:basemachine3/solar_iu" }, type: "item" }
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30F775757BEA66C6"]
+			id: "48F917AA34E4DC6B"
+			rewards: [
+				{ id: "32321F632D949E5C", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "6F7CD7FB4C829241", item: { count: 1, id: "industrialupgrade:machines/advanced_solar_paneliu" }, type: "item" }
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48F917AA34E4DC6B"]
+			id: "69A0A39F2A810937"
+			rewards: [
+				{ id: "630B2386DA01DB9A", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "54158C3DB14F5D64", item: { count: 1, id: "industrialupgrade:machines/hybrid_solar_paneliu" }, type: "item" }
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69A0A39F2A810937"]
+			id: "2551CB175D41EA92"
+			rewards: [
+				{ id: "668F35815C1ACA25", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2055B0A4A1C32E8C", item: { count: 1, id: "industrialupgrade:machines/ultimate_solar_paneliu" }, type: "item" }
+			]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2551CB175D41EA92"]
+			id: "26B59EAA9B997F7D"
+			rewards: [
+				{ id: "47A17DD2AFA49B16", type: "xp_levels", xp_levels: 8 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "4FF74F51A4DD9991", item: { count: 1, id: "industrialupgrade:machines/quantum_solar_paneliu" }, type: "item" }
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AEE04891F5D88BB"]
+			id: "40312064051ACA7D"
+			rewards: [
+				{ id: "55B9A70567A46C46", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "6A21536EABBB814B", item: { count: 1, id: "industrialupgrade:basemachine3/simple_wind_generator" }, type: "item" }
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AEE04891F5D88BB"]
+			id: "1DB0118C2E7BEA2F"
+			rewards: [
+				{ id: "44DF611E6BD7B14E", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "3C01280E3476F212", item: { count: 1, id: "industrialupgrade:basemachine3/watergenerator" }, type: "item" }
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7AEE04891F5D88BB"]
+			id: "3141721E8283453C"
+			rewards: [
+				{ id: "3C0D89260FC2E3C5", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2EF1D92753D93077", item: { count: 1, id: "industrialupgrade:basemachine3/geogenerator_iu" }, type: "item" }
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48F917AA34E4DC6B"]
+			id: "165977E694043FBB"
+			rewards: [
+				{ id: "54D15008F9BA71B9", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "72D9BEB74500764D", item: { count: 1, id: "industrialupgrade:se_gen/se_gen" }, type: "item" }
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E3E15254955411B", "165977E694043FBB"]
+			id: "6F3E7CF96CF60E3F"
+			rewards: [
+				{ id: "575C0C73BF4CD99E", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "68179DA9FB6F31CC", item: { count: 1, id: "powerutils:converter/power_utilities_fe" }, type: "item" }
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+	]
+}

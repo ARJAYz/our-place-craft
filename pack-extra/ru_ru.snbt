@@ -8841,9 +8841,9 @@
 	chapter.63F17F68335641EC.chapter_subtitle: [
 		"Нефть, биотопливо и моторы для самолётов"
 	]
-	quest.C7A46F74EF9513C3.title: "&6&lДизельная эра"
-	quest.C7A46F74EF9513C3.quest_subtitle: "Сделайте поршень двигателя"
-	quest.C7A46F74EF9513C3.quest_desc: [
+	quest.47A46F74EF9513C3.title: "&6&lДизельная эра"
+	quest.47A46F74EF9513C3.quest_subtitle: "Сделайте поршень двигателя"
+	quest.47A46F74EF9513C3.quest_desc: [
 		"&6Create: Diesel Generators&r добавляет &eдвигатели внутреннего сгорания&r — они крутят валы Create на жидком топливе."
 		""
 		"Всё начинается с &6поршня двигателя&r. Рецепт смотрите в JEI (R), подсказки — зажмите &eW&r (Ponder)."
@@ -8855,28 +8855,28 @@
 		""
 		"Подойдёт любое топливо из этой главы: &eрастительное масло&r, &eэтанол&r, &eбиодизель&r, &eбензин&r, &eдизель&r. Чем лучше топливо — тем больше скорость и нагрузка (смотрите очки инженера)."
 	]
-	quest.BBC59EB105B18324.title: "Модульный двигатель"
-	quest.BBC59EB105B18324.quest_subtitle: "Ставьте в ряд"
-	quest.BBC59EB105B18324.quest_desc: [
+	quest.3BC59EB105B18324.title: "Модульный двигатель"
+	quest.3BC59EB105B18324.quest_subtitle: "Ставьте в ряд"
+	quest.3BC59EB105B18324.quest_desc: [
 		"&6Модульный дизельный двигатель&r собирается в цепочку вдоль вала — каждый новый блок добавляет мощности."
 		""
 		"Отлично подходит для заводов, которым мало водяных колёс и паровых двигателей."
 	]
-	quest.840EFC8894FFBFDE.title: "Огромный двигатель"
-	quest.840EFC8894FFBFDE.quest_subtitle: "Мощь как у паровой машины"
-	quest.840EFC8894FFBFDE.quest_desc: [
+	quest.040EFC8894FFBFDE.title: "Огромный двигатель"
+	quest.040EFC8894FFBFDE.quest_subtitle: "Мощь как у паровой машины"
+	quest.040EFC8894FFBFDE.quest_desc: [
 		"&6Огромный дизельный двигатель&r — дизельный аналог паровой машины: ставится на бак и вал, к нему добавляются &eприводные валы&r."
 		""
 		"Самый мощный источник вращения в моде."
 	]
-	quest.9A5EC31676CB01B8.title: "Турбонаддув"
-	quest.9A5EC31676CB01B8.quest_subtitle: "Больше оборотов"
-	quest.9A5EC31676CB01B8.quest_desc: [
+	quest.1A5EC31676CB01B8.title: "Турбонаддув"
+	quest.1A5EC31676CB01B8.quest_subtitle: "Больше оборотов"
+	quest.1A5EC31676CB01B8.quest_desc: [
 		"&6Турбонаддув&r ставится на двигатель (ПКМ) и повышает его отдачу."
 	]
-	quest.BD0D38CCE2B759E7.title: "Глушитель"
-	quest.BD0D38CCE2B759E7.quest_subtitle: "Тише, соседи спят"
-	quest.BD0D38CCE2B759E7.quest_desc: [
+	quest.3D0D38CCE2B759E7.title: "Глушитель"
+	quest.3D0D38CCE2B759E7.quest_subtitle: "Тише, соседи спят"
+	quest.3D0D38CCE2B759E7.quest_desc: [
 		"&6Глушитель&r убирает шум двигателя. Ваши соседи по серверу скажут спасибо."
 	]
 	quest.5676E19C94E6C7F3.title: "Растительное масло"
@@ -8903,9 +8903,9 @@
 		""
 		"Хорошее топливо без нефти: можно жить только на фермах!"
 	]
-	quest.D345185F64CB43EB.title: "Сканер нефти"
-	quest.D345185F64CB43EB.quest_subtitle: "Где копать?"
-	quest.D345185F64CB43EB.quest_desc: [
+	quest.5345185F64CB43EB.title: "Сканер нефти"
+	quest.5345185F64CB43EB.quest_subtitle: "Где копать?"
+	quest.5345185F64CB43EB.quest_desc: [
 		"&6Сканер нефти&r показывает, сколько нефти под текущим чанком."
 		""
 		"Нефть есть не везде — в некоторых биомах её больше (пустыни, океаны и т. п.). Ищите чанк с большим запасом."
@@ -8917,9 +8917,9 @@
 		""
 		"Соберите конструкцию по Ponder (W) — там показано точное расположение."
 	]
-	quest.8849872FB46CE97C.title: "Сырая нефть"
-	quest.8849872FB46CE97C.quest_subtitle: "Чёрное золото"
-	quest.8849872FB46CE97C.quest_desc: [
+	quest.0849872FB46CE97C.title: "Сырая нефть"
+	quest.0849872FB46CE97C.quest_subtitle: "Чёрное золото"
+	quest.0849872FB46CE97C.quest_desc: [
 		"&6Сырая нефть&r горит в двигателе плохо — её нужно перегнать."
 	]
 	quest.6BC38D74959AFB4A.title: "Ректификационная колонна"
@@ -8929,9 +8929,9 @@
 		""
 		"Под ней нужна &eгорящая горелка ифрита&r (нагрев). С каждого яруса выходит своя фракция."
 	]
-	quest.CFB7360B87874FA3.title: "&eДизель и бензин"
-	quest.CFB7360B87874FA3.quest_subtitle: "Лучшее топливо"
-	quest.CFB7360B87874FA3.quest_desc: [
+	quest.4FB7360B87874FA3.title: "&eДизель и бензин"
+	quest.4FB7360B87874FA3.quest_subtitle: "Лучшее топливо"
+	quest.4FB7360B87874FA3.quest_desc: [
 		"Перегонка даёт &6дизель&r и &6бензин&r — самое мощное топливо для двигателей и самолётов."
 		""
 		"Храните их в баках или &eнефтяных бочках&r, переносите в &eканистрах&r."
@@ -8957,9 +8957,9 @@
 		""
 		"Чем больше баков — тем дальше полёт."
 	]
-	quest.97F58DCFA353964E.title: "Заправочная горловина"
-	quest.97F58DCFA353964E.quest_subtitle: "Заправка на стоянке"
-	quest.97F58DCFA353964E.quest_desc: [
+	quest.17F58DCFA353964E.title: "Заправочная горловина"
+	quest.17F58DCFA353964E.quest_subtitle: "Заправка на стоянке"
+	quest.17F58DCFA353964E.quest_desc: [
 		"&6Заправочная горловина&r позволяет заливать топливо в баки корабля трубой, помпой или из канистры — удобно сделать «заправку» на аэродроме."
 	]
 	quest.393DC8371D18F3A2.title: "Рычаг отсечки"
@@ -8974,4 +8974,386 @@
 		""
 		"Взлетите и отметьте квест галочкой. Удачного полёта, пилот!"
 	]
+	chapter.44B1BD53518A32BC.title: "&e8.&r &aIndustrial Upgrade"
+	chapter.44B1BD53518A32BC.chapter_subtitle: [
+		"Пар, электричество, сплавы и связи с другими модами"
+	]
+	quest.6D723515684AD069.title: "&e&lIndustrial Upgrade"
+	quest.6D723515684AD069.quest_subtitle: "Большая техно-ветка"
+	quest.6D723515684AD069.quest_desc: [
+		"&eIndustrial Upgrade&r — наследник IndustrialCraft: машины на электричестве, пар, реакторы, солнечные панели, сплавы и даже космос."
+		""
+		"У мода есть свой подробный &6справочник&r (он лежит в вашем &bAkashic Tome&r) — там вся цепочка шаг за шагом. Эта глава — короткий путь и связи с остальными модами. Дальше — раздел &e⚙ Industrial Upgrade&r: энергия, нефть и металлургия, ядерная энергия, снаряжение, высокие технологии и космос."
+		""
+		"Отметьте квест, когда откроете справочник."
+	]
+	quest.6931E304723ABEF4.title: "Латекс"
+	quest.6931E304723ABEF4.quest_subtitle: "Краник и гевея"
+	quest.6931E304723ABEF4.quest_desc: [
+		"Найдите &2гевею&r (каучуковое дерево) и соберите &6латекс&r &eкраником&r с пятен на коре."
+		"Из латекса делается резина — изоляция для проводов и детали машин."
+	]
+	quest.53772F2A51677AFB.title: "Ручные инструменты"
+	quest.53772F2A51677AFB.quest_subtitle: "Молот и кусачки"
+	quest.53772F2A51677AFB.quest_desc: [
+		"&6Кузнечный молот&r плющит слитки в пластины, &6кусачки&r режут пластины на провода. Это первые детали до появления машин."
+		""
+		"Пластины Create тоже подходят — металлы в сборке общие."
+	]
+	quest.5AEFE2B87838278C.title: "Паровой котёл"
+	quest.5AEFE2B87838278C.quest_subtitle: "Эпоха пара"
+	quest.5AEFE2B87838278C.quest_desc: [
+		"Первые машины IU работают на &fпаре&r. &6Паровой котёл&r греет воду топливом и выдаёт пар по трубам."
+	]
+	quest.614B4F1844488B54.title: "Паровой дробитель"
+	quest.614B4F1844488B54.quest_subtitle: "Удвоение руды"
+	quest.614B4F1844488B54.quest_desc: [
+		"&6Паровой дробитель&r превращает руду в &eдроблёную руду&r — из неё выходит больше металла."
+	]
+	quest.5B6854D189F6335B.title: "Паровой сжиматель"
+	quest.5B6854D189F6335B.quest_subtitle: "Плотные материалы"
+	quest.5B6854D189F6335B.quest_desc: [
+		"&6Паровой сжиматель&r прессует материалы — нужен для многих деталей."
+	]
+	quest.75BA5A68D6C87318.title: "Паровой прокатный станок"
+	quest.75BA5A68D6C87318.quest_subtitle: "Пластины без молота"
+	quest.75BA5A68D6C87318.quest_desc: [
+		"&6Паровой прокатный станок&r делает пластины автоматически — молот можно убрать."
+	]
+	quest.08A2A9C0C5C65F3A.title: "Обшивка корпуса"
+	quest.08A2A9C0C5C65F3A.quest_subtitle: "Основа электрических машин"
+	quest.08A2A9C0C5C65F3A.quest_desc: [
+		"&6Обшивка корпуса&r — основа почти всех электрических машин IU. Дальше начинается электричество."
+	]
+	quest.3B76C4A7A5F294D1.title: "Генератор и энергохранилище"
+	quest.3B76C4A7A5F294D1.quest_subtitle: "Первое электричество"
+	quest.3B76C4A7A5F294D1.quest_desc: [
+		"&6Генератор&r сжигает топливо и даёт энергию IU (EF), &6энергохранилище&r её копит."
+		"Провода IU соединяют всё вместе."
+	]
+	quest.79B0F64660CE29F1.title: "Базовые машины"
+	quest.79B0F64660CE29F1.quest_subtitle: "Дробитель, печь, сжиматель, экстрактор"
+	quest.79B0F64660CE29F1.quest_desc: [
+		"Четыре главные машины IU на электричестве. С ними руда, слитки и резина идут потоком."
+		""
+		"Руды IU можно дробить и &eжерновами Create&r, а металлы общие с Mekanism и Immersive Engineering."
+	]
+	quest.71B38977E329E900.title: "Электросхема"
+	quest.71B38977E329E900.quest_subtitle: "Начало электроники"
+	quest.71B38977E329E900.quest_desc: [
+		"&6Электросхема&r открывает продвинутые машины. Справочник IU подскажет, как наладить её производство."
+	]
+	quest.661E01853CE7AA6A.title: "Завод сплавов"
+	quest.661E01853CE7AA6A.quest_subtitle: "Бронза, сталь и десятки сплавов"
+	quest.661E01853CE7AA6A.quest_desc: [
+		"&6Завод сплавов&r плавит металлы вместе. Сплавы IU нужны для корпусов продвинутых машин."
+	]
+	quest.0102C3BF0E02F29D.title: "Улучшенная электросхема"
+	quest.0102C3BF0E02F29D.quest_subtitle: "Прогресс в электронике"
+	quest.0102C3BF0E02F29D.quest_desc: [
+		"Следующая ступень схем — для улучшенных машин и хранилищ."
+	]
+	quest.26C86DA596F76B38.title: "МФЭ"
+	quest.26C86DA596F76B38.quest_subtitle: "Большое хранилище энергии"
+	quest.26C86DA596F76B38.quest_desc: [
+		"&6МФЭ&r хранит намного больше энергии и держит высокое напряжение."
+	]
+	quest.0EF8E6FD9E35968E.title: "&cНано-электросхема"
+	quest.0EF8E6FD9E35968E.quest_subtitle: "Нанотехнологии"
+	quest.0EF8E6FD9E35968E.quest_desc: [
+		"Нано-схемы открывают нано-броню, мощные машины и следующие эпохи IU — дальше ведёт справочник."
+	]
+	quest.3AC864ACD20B833B.title: "Солнечная панель"
+	quest.3AC864ACD20B833B.quest_subtitle: "Бесплатная энергия днём"
+	quest.3AC864ACD20B833B.quest_desc: [
+		"&6Солнечная панель&r даёт энергию днём. Дальше в IU — десятки панелей всё мощнее, вплоть до квантовых."
+	]
+	quest.33FC042C40D89567.title: "Ветрогенератор"
+	quest.33FC042C40D89567.quest_subtitle: "Энергия ветра"
+	quest.33FC042C40D89567.quest_desc: [
+		"&6Ветрогенератор&r лучше работает высоко и на открытом месте."
+	]
+	quest.586068033EC2B64A.title: "Генератор воды"
+	quest.586068033EC2B64A.quest_subtitle: "Энергия течения"
+	quest.586068033EC2B64A.quest_desc: [
+		"Работает от воды вокруг — поставьте у реки или моря."
+	]
+	quest.79144C782B866FFB.title: "Геотермальный генератор"
+	quest.79144C782B866FFB.quest_subtitle: "Энергия лавы"
+	quest.79144C782B866FFB.quest_desc: [
+		"Превращает лаву в энергию."
+	]
+	quest.6FB5E2593C411E51.title: "Дизельный генератор IU"
+	quest.6FB5E2593C411E51.quest_subtitle: "Жидкое топливо"
+	quest.6FB5E2593C411E51.quest_desc: [
+		"&6Дизельный генератор&r IU работает на жидком топливе. Пригодится, если у вас уже налажена нефтянка."
+	]
+	quest.6114F67193ABC46C.title: "&bКонвертер EF/FE"
+	quest.6114F67193ABC46C.quest_subtitle: "Мост между модами"
+	quest.6114F67193ABC46C.quest_desc: [
+		"У IU своя энергия — &eEF&r. &6Конвертер энергии EF/FE&r (Power Utilities) переводит её в обычную &eFE&r и обратно."
+		""
+		"Так генераторы Mekanism, Extreme Reactors или Create Crafts & Additions могут питать машины IU — и наоборот."
+	]
+	quest.074A38B2F7C8972F.title: "Руды IU"
+	quest.074A38B2F7C8972F.quest_subtitle: "Новые металлы"
+	quest.074A38B2F7C8972F.quest_desc: [
+		"IU добавляет десятки металлов: титан, вольфрам, хром, кобальт, михайлов и другие."
+		""
+		"&cВажно:&r в уже исследованной части мира этих руд нет — они появляются только в новых чанках. Поэтому мы добавили &eжилы для бура Create Ore Excavation&r: найдите жилу &eискателем жил&r и поставьте бур — работает где угодно."
+	]
+	quest.4C13306AEA01BFF1.title: "Жилы для бура"
+	quest.4C13306AEA01BFF1.quest_subtitle: "Металлы IU в старом мире"
+	quest.4C13306AEA01BFF1.quest_desc: [
+		"В сборке 14 новых жил для бура Create Ore Excavation: бокситы, титан, вольфрам, хром, кобальт, магний, платиноиды, серебро, михайлов, шпинель, германий, редкоземельная, тугоплавкая и тяжёлых металлов."
+		""
+		"Ищите их &eискателем жил&r, добывайте &eбуром&r на механической тяге Create."
+	]
+	quest.02A0CF86E2824B4B.title: "Комбинированный дробитель"
+	quest.02A0CF86E2824B4B.quest_subtitle: "Руда ×3"
+	quest.02A0CF86E2824B4B.quest_desc: [
+		"&6Комбинированный дробитель&r выдаёт из одной руды до трёх порций — лучший способ переработки в IU."
+	]
+	quest.7212BAEEF9FA932D.title: "Карьер"
+	quest.7212BAEEF9FA932D.quest_subtitle: "Автоматическая добыча"
+	quest.7212BAEEF9FA932D.quest_desc: [
+		"&6Карьер&r (Simply Quarries) сам копает под собой и выдаёт руду. Есть улучшенные версии вплоть до фотонного."
+	]
+	chapter_group.3B0071CCD5F4E81E.title: "&e⚙ Industrial Upgrade"
+	chapter.74E870A466E60697.title: "&eIU: энергия и хранение"
+	chapter.74E870A466E60697.chapter_subtitle: [
+		"Генераторы, солнечные панели и накопители"
+	]
+	quest.7AEE04891F5D88BB.quest_subtitle: "Топливо → энергия"
+	quest.7AEE04891F5D88BB.quest_desc: [
+		"Самый простой источник EF: жжёт уголь и прочее топливо. Хорош, пока нет ничего лучше."
+	]
+	quest.7284F73F567CC5A2.quest_subtitle: "Первый накопитель"
+	quest.7284F73F567CC5A2.quest_desc: [
+		"Копит энергию, чтобы машины работали без перебоев."
+	]
+	quest.743C95641EAD162F.title: "Провода"
+	quest.743C95641EAD162F.quest_subtitle: "Изоляция обязательна"
+	quest.743C95641EAD162F.quest_desc: [
+		"Изолированные провода не бьют током и меньше теряют энергию. Олово — для слабого тока, медь — для среднего."
+	]
+	quest.6B95A1007381CAB6.quest_subtitle: "Больше ёмкости"
+	quest.6B95A1007381CAB6.quest_desc: [
+		"Следующий накопитель — держит больше энергии и средний ток."
+	]
+	quest.307EAFB8C9B2189C.quest_subtitle: "Высокое напряжение"
+	quest.307EAFB8C9B2189C.quest_desc: [
+		"МФЭ хранит много энергии и выдаёт высокий ток."
+	]
+	quest.4E3E15254955411B.quest_subtitle: "Склад энергии"
+	quest.4E3E15254955411B.quest_desc: [
+		"МФСУ — большой накопитель для целой базы. Дальше идут ещё более ёмкие хранилища."
+	]
+	quest.661AC556665B4307.title: "Трансформаторы"
+	quest.661AC556665B4307.quest_subtitle: "Ток под машину"
+	quest.661AC556665B4307.quest_desc: [
+		"Машина взорвётся, если подать слишком высокий ток. Трансформаторы понижают и повышают напряжение."
+	]
+	quest.30F775757BEA66C6.quest_subtitle: "Солнце"
+	quest.30F775757BEA66C6.quest_desc: [
+		"Даёт энергию днём бесплатно."
+	]
+	quest.48F917AA34E4DC6B.quest_subtitle: "Улучшенная панель"
+	quest.48F917AA34E4DC6B.quest_desc: [
+		"Работает и ночью, но слабее. Первая ступень длинной лестницы солнечных панелей."
+	]
+	quest.69A0A39F2A810937.quest_subtitle: "Гибридная панель"
+	quest.2551CB175D41EA92.quest_subtitle: "Совершенная гибридная"
+	quest.26B59EAA9B997F7D.quest_subtitle: "Квантовая панель"
+	quest.26B59EAA9B997F7D.quest_desc: [
+		"Дальше — спектральные, протонные, сингулярные и ещё восемь ступеней вплоть до кварковой. Ищите их в JEI."
+	]
+	quest.40312064051ACA7D.quest_subtitle: "Ветер"
+	quest.40312064051ACA7D.quest_desc: [
+		"Чем выше и просторнее — тем больше энергии."
+	]
+	quest.1DB0118C2E7BEA2F.quest_subtitle: "Вода"
+	quest.3141721E8283453C.quest_subtitle: "Лава"
+	quest.165977E694043FBB.quest_subtitle: "Солнечная энергия (SE)"
+	quest.165977E694043FBB.quest_desc: [
+		"Генератор солнечной энергии — отдельный вид энергии IU для солнечных машин и солнечного камня."
+	]
+	quest.6F3E7CF96CF60E3F.title: "&bКонвертер EF/FE"
+	quest.6F3E7CF96CF60E3F.quest_subtitle: "Связь с другими модами"
+	quest.6F3E7CF96CF60E3F.quest_desc: [
+		"Переводит энергию IU в FE и обратно — питайте Mekanism и Create Crafts & Additions от IU или наоборот."
+	]
+	chapter.210B1C36184D672F.title: "&eIU: нефть, металлургия и химия"
+	chapter.210B1C36184D672F.chapter_subtitle: [
+		"Сталь, сплавы, нефть и пластик"
+	]
+	quest.3C558C48CAA5DFB7.quest_subtitle: "Чистая руда"
+	quest.3C558C48CAA5DFB7.quest_desc: [
+		"Промывка дроблёной руды даёт очищенную руду и побочные пыли."
+	]
+	quest.4D2A89C2AA77731D.quest_subtitle: "Руда ×3"
+	quest.77B832EC587522A4.quest_subtitle: "Минералы"
+	quest.77B832EC587522A4.quest_desc: [
+		"Разделяет минералы IU (магнетит, галенит, пирит…) на металлы."
+	]
+	quest.5DDA824B6C698648.title: "Доменная печь"
+	quest.5DDA824B6C698648.quest_subtitle: "Сталь"
+	quest.5DDA824B6C698648.quest_desc: [
+		"Многоблочная доменная печь плавит железо в сталь. Соберите её по справочнику IU."
+	]
+	quest.7099B13803B7ECD2.quest_subtitle: "Сталь IU"
+	quest.7099B13803B7ECD2.quest_desc: [
+		"Сталь в сборке общая — подходит и для Mekanism, и для Immersive Engineering."
+	]
+	quest.32E6A608908B6BF8.quest_subtitle: "Сплавы"
+	quest.32E6A608908B6BF8.quest_desc: [
+		"Десятки сплавов IU: нержавеющая сталь, инконель, нихром, дюраль…"
+	]
+	quest.7353940305E6D3E7.quest_subtitle: "Нержавейка"
+	quest.46D89D2B55CE7244.title: "Экструдер и режущий автомат"
+	quest.46D89D2B55CE7244.quest_subtitle: "Провода и стержни"
+	quest.3E7A27BC571E38E2.quest_subtitle: "Нефть"
+	quest.3E7A27BC571E38E2.quest_desc: [
+		"Станок-качалка добывает нефть из-под земли."
+	]
+	quest.2F9BCB7797364F5E.quest_subtitle: "Перегонка"
+	quest.2F9BCB7797364F5E.quest_desc: [
+		"Нефтеперерабатывающий завод делает бензин, дизель и другие фракции."
+	]
+	quest.21DBDB50F9107679.quest_subtitle: "Бензин → энергия"
+	quest.78AD7104C9A31600.quest_subtitle: "Дизель → энергия"
+	quest.7498B960DBF6D8CA.quest_subtitle: "Глубокая переработка"
+	quest.74C6A1970EAC0ACE.quest_subtitle: "Пластик"
+	quest.74C6A1970EAC0ACE.quest_desc: [
+		"Химический завод делает пластик."
+	]
+	quest.283938348CB2B7D6.quest_subtitle: "Пластиковые пластины"
+	quest.68EC1D2545C54EA6.quest_subtitle: "Электролиз"
+	quest.68EC1D2545C54EA6.quest_desc: [
+		"Разлагает воду на водород и кислород. Нужны анод и катод."
+	]
+	quest.7C354A9F9A1C8792.quest_subtitle: "Чистая энергия"
+	quest.7C354A9F9A1C8792.quest_desc: [
+		"Водородный генератор — без выхлопа."
+	]
+	chapter.3A18502D8A7F5466.title: "&eIU: ядерная энергия"
+	chapter.3A18502D8A7F5466.chapter_subtitle: [
+		"Обогащение, реакторы и турбины"
+	]
+	quest.6E0954CFFD77581E.title: "Защитный костюм"
+	quest.6E0954CFFD77581E.quest_subtitle: "Сначала безопасность"
+	quest.6E0954CFFD77581E.quest_desc: [
+		"&cРадиация опасна!&r Костюм химзащиты защищает от облучения при работе с ураном и реакторами."
+	]
+	quest.49CE73632FB101E3.quest_subtitle: "Уран"
+	quest.3813A806568BC0B0.quest_subtitle: "Облучение"
+	quest.3813A806568BC0B0.quest_desc: [
+		"Облучатель делает облучённые материалы: уран, торий, стекло, солнечный камень."
+	]
+	quest.3021552A02719F3E.title: "Ядерный реактор"
+	quest.3021552A02719F3E.quest_subtitle: "Огромная мощность"
+	quest.3021552A02719F3E.quest_desc: [
+		"Реактор даёт очень много энергии, но перегревается. Охлаждение и контроллер обязательны — собирайте по справочнику, иначе взрыв."
+	]
+	quest.6B3773F6560C7BD3.quest_subtitle: "Жидкостный реактор"
+	quest.64FC3F7E0E8C7849.quest_subtitle: "Графито-водный реактор"
+	quest.45439015DDF67946.quest_subtitle: "Газоохлаждаемый реактор"
+	quest.17E32AEF2EADFA93.quest_subtitle: "Высокотемпературный реактор"
+	quest.5065BBE3AA8FEE55.quest_subtitle: "Паровая турбина"
+	quest.5065BBE3AA8FEE55.quest_desc: [
+		"Пар от реакторов крутит многоблочную турбину."
+	]
+	quest.5AE141D829EA587B.quest_subtitle: "Улучшенный реактор"
+	quest.4694309695517678.title: "&dРеактор синтеза"
+	quest.4694309695517678.quest_subtitle: "Вершина энергетики"
+	quest.4694309695517678.quest_desc: [
+		"Термоядерный синтез — самый мощный реактор IU."
+	]
+	chapter.5D978A9C9B45E4E9.title: "&eIU: снаряжение"
+	chapter.5D978A9C9B45E4E9.chapter_subtitle: [
+		"Броня, инструменты и джетпаки"
+	]
+	quest.463CCEDFDD1BE480.title: "Бронзовая броня"
+	quest.463CCEDFDD1BE480.quest_subtitle: "Первая броня IU"
+	quest.1A6F919786A32FB1.quest_subtitle: "Заряд на спине"
+	quest.1A6F919786A32FB1.quest_desc: [
+		"Батпак заряжает электроинструменты прямо в инвентаре."
+	]
+	quest.466A343F8B73F5CE.quest_subtitle: "Электробур"
+	quest.74FC365953E6C468.title: "Алмазный бур и бензопила"
+	quest.6190FA9A20A9E1D1.quest_subtitle: "Ночное зрение"
+	quest.77BFCF9609E5410C.quest_subtitle: "Полёт"
+	quest.77BFCF9609E5410C.quest_desc: [
+		"Джетпак — летайте на энергии. Улучшенные версии летают дольше и быстрее."
+	]
+	quest.560BB6653E1297FA.quest_subtitle: "Большой заряд"
+	quest.605200B5C82F9A2F.title: "Нано-броня"
+	quest.605200B5C82F9A2F.quest_subtitle: "Защита на энергии"
+	quest.605200B5C82F9A2F.quest_desc: [
+		"Нано-костюм поглощает урон за счёт энергии."
+	]
+	quest.1E312D6DE4576C12.quest_subtitle: "Нано-меч"
+	quest.70C3F06A43A846F5.title: "Нано-инструменты"
+	quest.3FA06D9A02F8E7B5.quest_subtitle: "Улучшенный джетпак"
+	quest.6574D6676D05FFEA.title: "&bКвантовая броня"
+	quest.6574D6676D05FFEA.quest_subtitle: "Почти неуязвимость"
+	quest.6574D6676D05FFEA.quest_desc: [
+		"Квантовый костюм: полёт, бег, подводное дыхание и огромная защита."
+	]
+	chapter.173EF353072E56E6.title: "&eIU: высокие технологии и космос"
+	chapter.173EF353072E56E6.chapter_subtitle: [
+		"Ядра, материя, телепорты, ракеты и фермы"
+	]
+	quest.411F56F2688FFBA3.quest_subtitle: "Электросхема"
+	quest.1E2F7D5FFCFF69C3.quest_subtitle: "Производство схем"
+	quest.1E2F7D5FFCFF69C3.quest_desc: [
+		"Сборщик микросхем автоматизирует электронику."
+	]
+	quest.437903AFFEF05932.quest_subtitle: "Фотонная электроника"
+	quest.3C786116D59A5D41.quest_subtitle: "Ядра — сердце панелей"
+	quest.3C786116D59A5D41.quest_desc: [
+		"Ядра нужны для мощных солнечных панелей и машин."
+	]
+	quest.455354D4B860EACF.quest_subtitle: "Превращение веществ"
+	quest.455354D4B860EACF.quest_desc: [
+		"Молекулярный преобразователь превращает одни предметы в другие с помощью энергии."
+	]
+	quest.3EB01E539766F789.quest_subtitle: "Солнечный камень"
+	quest.4BDE0CC722FE8EA8.quest_subtitle: "Материя"
+	quest.4BDE0CC722FE8EA8.quest_desc: [
+		"Генератор материи делает UU-материю из энергии."
+	]
+	quest.56B45F60917CA77E.quest_subtitle: "Копирование"
+	quest.56B45F60917CA77E.quest_desc: [
+		"Репликатор создаёт предметы из материи по шаблону сканера."
+	]
+	quest.608296723649B97F.quest_subtitle: "Телепорт"
+	quest.483692B5AF9516D7.quest_subtitle: "Квантовый карьер"
+	quest.483692B5AF9516D7.quest_desc: [
+		"Добывает руды из ниоткуда — нужна огромная энергия."
+	]
+	quest.4D6BF58CCB295A52.quest_subtitle: "Исследования"
+	quest.4D6BF58CCB295A52.quest_desc: [
+		"Стол исследований открывает новые технологии IU."
+	]
+	quest.7F1C0A6500C734C0.quest_subtitle: "Космос"
+	quest.255D810DAEEFC82B.title: "Ракета"
+	quest.255D810DAEEFC82B.quest_subtitle: "На старт!"
+	quest.255D810DAEEFC82B.quest_desc: [
+		"Соберите ракету и стартовую площадку. IU отправляет ракеты к планетам за ресурсами — подробности в справочнике."
+	]
+	quest.5686E04C64A4F12B.quest_subtitle: "Зонды"
+	quest.636127F64475E3C7.quest_subtitle: "Спутники"
+	quest.1C05A60E3C847887.quest_subtitle: "Марсоходы"
+	quest.1C05A60E3C847887.quest_desc: [
+		"Марсоходы добывают ресурсы на планетах."
+	]
+	quest.7699F3749DD82BC7.quest_subtitle: "Скрещивание культур"
+	quest.7699F3749DD82BC7.quest_desc: [
+		"У IU 80+ культур с генетикой: скрещивайте их на жёрдочках."
+	]
+	quest.2BD022A2167657C2.title: "Автосадовник и сборщик"
+	quest.2BD022A2167657C2.quest_subtitle: "Автоматическая ферма"
+	quest.69D0EB50503774B2.quest_subtitle: "Пчёлы IU"
+	quest.32A6A085DC26128D.quest_subtitle: "Аптекарь пчёл"
 }

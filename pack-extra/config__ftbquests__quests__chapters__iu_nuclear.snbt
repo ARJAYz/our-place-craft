@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iu_nuclear"
+	group: "3B0071CCD5F4E81E"
+	icon: {
+		id: "industrialupgrade:water_reactors/water_controller"
+	}
+	id: "3A18502D8A7F5466"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E0954CFFD77581E"
+			rewards: [
+				{ id: "564A3EFFB3437037", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "7F8DE2EA973080D5", item: { count: 1, id: "industrialupgrade:armour/hazmat_helmet" }, type: "item" }
+				{ id: "7B926347D07F479B", item: { count: 1, id: "industrialupgrade:armour/hazmat_chestplate" }, type: "item" }
+				{ id: "414D4977A18D8534", item: { count: 1, id: "industrialupgrade:armour/hazmat_leggings" }, type: "item" }
+				{ id: "614832A86DDFD082", item: { count: 1, id: "industrialupgrade:armour/rubber_boots" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E0954CFFD77581E"]
+			id: "49CE73632FB101E3"
+			rewards: [
+				{ id: "785DB336CCC3A0C1", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "1F94E3E1CCDE1F4D", item: { count: 1, id: "industrialupgrade:itemiucrafring/itemuraningot" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49CE73632FB101E3"]
+			id: "3813A806568BC0B0"
+			rewards: [
+				{ id: "4131BD7D871ED603", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2F3CD7A393CCF1F4", item: { count: 1, id: "industrialupgrade:basemachine1/enrichment" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3813A806568BC0B0"]
+			id: "1C45E06B9B9697F7"
+			rewards: [
+				{ id: "3A8354F1ED0EE2B0", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "27C6AF89043D9D4B", item: { count: 1, id: "industrialupgrade:itemiucrafring/itemirradianturanium" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49CE73632FB101E3"]
+			id: "3021552A02719F3E"
+			rewards: [
+				{ id: "2D6E50F20F480CCB", type: "xp_levels", xp_levels: 8 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "5059CA4A08619E41", type: "checkmark" }
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3021552A02719F3E"]
+			id: "6B3773F6560C7BD3"
+			rewards: [
+				{ id: "767B1D8CEA8DFEFE", type: "xp_levels", xp_levels: 8 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "65A9616177CBA534", item: { count: 1, id: "industrialupgrade:water_reactors/water_controller" }, type: "item" }
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3021552A02719F3E"]
+			id: "64FC3F7E0E8C7849"
+			rewards: [
+				{ id: "11E7A505DB1D80B0", type: "xp_levels", xp_levels: 8 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "6E56D4F5F4B306C2", item: { count: 1, id: "industrialupgrade:graphite_reactor/graphite_controller" }, type: "item" }
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3021552A02719F3E"]
+			id: "45439015DDF67946"
+			rewards: [
+				{ id: "341AD2EEF8F033E3", type: "xp_levels", xp_levels: 8 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "28FA9998ABDDEDA0", item: { count: 1, id: "industrialupgrade:gas_reactor/gas_controller" }, type: "item" }
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3021552A02719F3E"]
+			id: "17E32AEF2EADFA93"
+			rewards: [
+				{ id: "240C2E5D7905B5D0", type: "xp_levels", xp_levels: 8 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "707FFAF231B65340", item: { count: 1, id: "industrialupgrade:heat_reactors/heat_controller" }, type: "item" }
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B3773F6560C7BD3", "64FC3F7E0E8C7849"]
+			id: "5065BBE3AA8FEE55"
+			rewards: [
+				{ id: "7A17D675E66C3541", type: "xp_levels", xp_levels: 8 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "60C2FF254550975A", item: { count: 1, id: "industrialupgrade:steam_turbine/steam_turbine_controller" }, type: "item" }
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45439015DDF67946", "17E32AEF2EADFA93"]
+			id: "5AE141D829EA587B"
+			rewards: [
+				{ id: "5350B8DEE26A575E", type: "xp_levels", xp_levels: 10 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "7C0E14CDBAFC2C98", item: { count: 1, id: "industrialupgrade:water_reactors/water_adv_controller" }, type: "item" }
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5065BBE3AA8FEE55", "5AE141D829EA587B"]
+			id: "4694309695517678"
+			rewards: [
+				{ id: "669C349817190F0E", type: "xp_levels", xp_levels: 15 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "2A519D00A8EDD237", item: { count: 1, id: "industrialupgrade:basemachine1/synthesis" }, type: "item" }
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+	]
+}

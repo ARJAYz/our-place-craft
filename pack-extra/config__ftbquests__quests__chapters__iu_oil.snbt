@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iu_oil"
+	group: "3B0071CCD5F4E81E"
+	icon: {
+		id: "industrialupgrade:refiner/refiner"
+	}
+	id: "210B1C36184D672F"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3C558C48CAA5DFB7"
+			rewards: [
+				{ id: "55491B426F778B7F", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "7B4C72A3EC5121FA", item: { count: 1, id: "industrialupgrade:moremachine3/orewashing" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C558C48CAA5DFB7"]
+			id: "4D2A89C2AA77731D"
+			rewards: [
+				{ id: "45F835263A4E64A0", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2F3759958B1711F5", item: { count: 1, id: "industrialupgrade:moremachine1/comb_macerator" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D2A89C2AA77731D"]
+			id: "77B832EC587522A4"
+			rewards: [
+				{ id: "6956A640CDA4F5CB", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "1679B92F1EE2344D", item: { count: 1, id: "industrialupgrade:basemachine1/handler_ho" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C558C48CAA5DFB7"]
+			id: "5DDA824B6C698648"
+			rewards: [
+				{ id: "4DEBE6F09BC4BF41", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "50FEC15F0B83B140", item: { count: 1, id: "industrialupgrade:blastfurnace/blast_furnace_main" }, type: "item" }
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DDA824B6C698648"]
+			id: "7099B13803B7ECD2"
+			rewards: [
+				{ id: "21A85D9D9A42586E", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "7DC06520AD94269F", item: { count: 1, id: "industrialupgrade:itemingots/steel_ingot" }, type: "item" }
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7099B13803B7ECD2"]
+			id: "32E6A608908B6BF8"
+			rewards: [
+				{ id: "1F159166D6FC970B", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "7995928E99A2E294", item: { count: 1, id: "industrialupgrade:basemachine/alloy_smelter" }, type: "item" }
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32E6A608908B6BF8"]
+			id: "7353940305E6D3E7"
+			rewards: [
+				{ id: "11B89D3813C9F030", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "6961EB9B598D11A3", item: { count: 1, id: "industrialupgrade:alloyingot/stainless_steel" }, type: "item" }
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7099B13803B7ECD2"]
+			id: "46D89D2B55CE7244"
+			rewards: [
+				{ id: "59982F8E8C0E3493", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "633DF854EF96612E", item: { count: 1, id: "industrialupgrade:moremachine2/extruder" }, type: "item" }
+				{ id: "3C8C200733A9EF0C", item: { count: 1, id: "industrialupgrade:moremachine2/cutting" }, type: "item" }
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "3E7A27BC571E38E2"
+			rewards: [
+				{ id: "779237AA79913132", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "752507050CB7B297", item: { count: 1, id: "industrialupgrade:petrol_quarry/petrol_quarry" }, type: "item" }
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E7A27BC571E38E2"]
+			id: "2F9BCB7797364F5E"
+			rewards: [
+				{ id: "51F248A387E230A2", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "4A614B8991A6BE64", item: { count: 1, id: "industrialupgrade:refiner/refiner" }, type: "item" }
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F9BCB7797364F5E"]
+			id: "21DBDB50F9107679"
+			rewards: [
+				{ id: "2A3C5A816820C660", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "6DE6F4650D854450", item: { count: 1, id: "industrialupgrade:basemachine2/gen_pet" }, type: "item" }
+			]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F9BCB7797364F5E"]
+			id: "78AD7104C9A31600"
+			rewards: [
+				{ id: "3D850B724E3EEAC1", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "74FBE4F3BD568988", item: { count: 1, id: "industrialupgrade:basemachine2/gen_disel" }, type: "item" }
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F9BCB7797364F5E"]
+			id: "7498B960DBF6D8CA"
+			rewards: [
+				{ id: "43914504B18D6C32", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "7FB29DCB2060DB4E", item: { count: 1, id: "industrialupgrade:basemachine3/imp_refiner" }, type: "item" }
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F9BCB7797364F5E"]
+			id: "74C6A1970EAC0ACE"
+			rewards: [
+				{ id: "4356CDEFAA28567A", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "5AA000AF5C9FC7A7", item: { count: 1, id: "industrialupgrade:basemachine2/plastic_creator" }, type: "item" }
+			]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74C6A1970EAC0ACE"]
+			id: "283938348CB2B7D6"
+			rewards: [
+				{ id: "1555991E3068D75C", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "349010A323DC6B81", item: { count: 1, id: "industrialupgrade:basemachine2/plastic_plate_creator" }, type: "item" }
+			]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3E7A27BC571E38E2"]
+			id: "68EC1D2545C54EA6"
+			rewards: [
+				{ id: "218B9C571E92A7E3", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "202D5A937B9D987A", item: { count: 1, id: "industrialupgrade:basemachine2/electrolyzer_iu" }, type: "item" }
+			]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["68EC1D2545C54EA6"]
+			id: "7C354A9F9A1C8792"
+			rewards: [
+				{ id: "7AEBE837FCDFFFFE", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "7FE5FDAFCD0A83F5", item: { count: 1, id: "industrialupgrade:basemachine2/gen_hyd" }, type: "item" }
+			]
+			x: 2.0d
+			y: 7.0d
+		}
+	]
+}

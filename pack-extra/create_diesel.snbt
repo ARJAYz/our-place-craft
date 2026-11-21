@@ -12,9 +12,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "C7A46F74EF9513C3"
+			id: "47A46F74EF9513C3"
 			rewards: [
-				{ id: "F8CAA60347279188", type: "xp_levels", xp_levels: 2 }
+				{ id: "78CAA60347279188", type: "xp_levels", xp_levels: 2 }
 			]
 			shape: "gear"
 			size: 1.5d
@@ -25,10 +25,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["C7A46F74EF9513C3"]
+			dependencies: ["47A46F74EF9513C3"]
 			id: "34D1BCED791147D7"
 			rewards: [
-				{ id: "97AF4F8DDD25596A", type: "xp_levels", xp_levels: 2 }
+				{ id: "17AF4F8DDD25596A", type: "xp_levels", xp_levels: 2 }
 			]
 			shape: "square"
 			tasks: [
@@ -39,9 +39,9 @@
 		}
 		{
 			dependencies: ["34D1BCED791147D7"]
-			id: "BBC59EB105B18324"
+			id: "3BC59EB105B18324"
 			rewards: [
-				{ id: "8E57A90DA7473ECA", type: "xp_levels", xp_levels: 3 }
+				{ id: "0E57A90DA7473ECA", type: "xp_levels", xp_levels: 3 }
 			]
 			shape: "square"
 			tasks: [
@@ -52,21 +52,21 @@
 		}
 		{
 			dependencies: ["34D1BCED791147D7"]
-			id: "840EFC8894FFBFDE"
+			id: "040EFC8894FFBFDE"
 			rewards: [
-				{ id: "BA1DDFE2EFED2B34", type: "xp_levels", xp_levels: 4 }
+				{ id: "3A1DDFE2EFED2B34", type: "xp_levels", xp_levels: 4 }
 			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
-				{ id: "FA9A4E81D94661AA", item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }, type: "item" }
+				{ id: "7A9A4E81D94661AA", item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }, type: "item" }
 			]
 			x: 4.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["BBC59EB105B18324"]
-			id: "9A5EC31676CB01B8"
+			dependencies: ["3BC59EB105B18324"]
+			id: "1A5EC31676CB01B8"
 			rewards: [
 				{ id: "57926921285AFDA7", type: "xp_levels", xp_levels: 2 }
 			]
@@ -78,20 +78,20 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["BBC59EB105B18324"]
-			id: "BD0D38CCE2B759E7"
+			dependencies: ["3BC59EB105B18324"]
+			id: "3D0D38CCE2B759E7"
 			rewards: [
 				{ id: "1A59768507521A1B", type: "xp_levels", xp_levels: 1 }
 			]
 			shape: "circle"
 			tasks: [
-				{ id: "C79C5E329677B3E5", item: { count: 1, id: "createdieselgenerators:engine_silencer" }, type: "item" }
+				{ id: "479C5E329677B3E5", item: { count: 1, id: "createdieselgenerators:engine_silencer" }, type: "item" }
 			]
 			x: 6.0d
 			y: -0.5d
 		}
 		{
-			dependencies: ["C7A46F74EF9513C3"]
+			dependencies: ["47A46F74EF9513C3"]
 			id: "5676E19C94E6C7F3"
 			rewards: [
 				{ id: "6A75F094FE2D389D", type: "xp_levels", xp_levels: 1 }
@@ -104,7 +104,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["C7A46F74EF9513C3"]
+			dependencies: ["47A46F74EF9513C3"]
 			id: "1D990690AFAB4887"
 			rewards: [
 				{ id: "633F491A89A5B539", type: "xp_levels", xp_levels: 1 }
@@ -133,32 +133,32 @@
 			dependencies: ["5676E19C94E6C7F3", "1225A37C136585C8"]
 			id: "3440F2F684A1C754"
 			rewards: [
-				{ id: "E9DBCF575C9EE107", type: "xp_levels", xp_levels: 3 }
-				{ id: "E15F6414A3EFF1D6", item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }, type: "item" }
+				{ id: "69DBCF575C9EE107", type: "xp_levels", xp_levels: 3 }
+				{ id: "615F6414A3EFF1D6", item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }, type: "item" }
 			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
-				{ id: "83DB5CA8129F1670", item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }, type: "item" }
+				{ id: "03DB5CA8129F1670", item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }, type: "item" }
 			]
 			x: 4.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["C7A46F74EF9513C3"]
-			id: "D345185F64CB43EB"
+			dependencies: ["47A46F74EF9513C3"]
+			id: "5345185F64CB43EB"
 			rewards: [
-				{ id: "DEE8B1EB9949B5C7", type: "xp_levels", xp_levels: 1 }
+				{ id: "5EE8B1EB9949B5C7", type: "xp_levels", xp_levels: 1 }
 			]
 			shape: "circle"
 			tasks: [
-				{ id: "987AF973FF597851", item: { count: 1, id: "createdieselgenerators:oil_scanner" }, type: "item" }
+				{ id: "187AF973FF597851", item: { count: 1, id: "createdieselgenerators:oil_scanner" }, type: "item" }
 			]
 			x: 0.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["D345185F64CB43EB"]
+			dependencies: ["5345185F64CB43EB"]
 			id: "5C4E0C692CB937CD"
 			rewards: [
 				{ id: "15A74DED3E626EBD", type: "xp_levels", xp_levels: 4 }
@@ -166,17 +166,17 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
-				{ id: "855FD520D8410B58", item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }, type: "item" }
-				{ id: "8711B545C17D11B9", item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }, type: "item" }
-				{ id: "B610CEE31CBADD72", item: { count: 1, id: "createdieselgenerators:pumpjack_head" }, type: "item" }
-				{ id: "9782DAD7B9B1AFA6", item: { count: 1, id: "createdieselgenerators:pumpjack_hole" }, type: "item" }
+				{ id: "055FD520D8410B58", item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }, type: "item" }
+				{ id: "0711B545C17D11B9", item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }, type: "item" }
+				{ id: "3610CEE31CBADD72", item: { count: 1, id: "createdieselgenerators:pumpjack_head" }, type: "item" }
+				{ id: "1782DAD7B9B1AFA6", item: { count: 1, id: "createdieselgenerators:pumpjack_hole" }, type: "item" }
 			]
 			x: 2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5C4E0C692CB937CD"]
-			id: "8849872FB46CE97C"
+			id: "0849872FB46CE97C"
 			rewards: [
 				{ id: "1B54ACA95986A573", type: "xp_levels", xp_levels: 2 }
 			]
@@ -188,21 +188,21 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["8849872FB46CE97C"]
+			dependencies: ["0849872FB46CE97C"]
 			id: "6BC38D74959AFB4A"
 			rewards: [
-				{ id: "99ECE8C8E3B5ACEE", type: "xp_levels", xp_levels: 2 }
+				{ id: "19ECE8C8E3B5ACEE", type: "xp_levels", xp_levels: 2 }
 			]
 			shape: "circle"
 			tasks: [
-				{ id: "8D6C8D14E042CA4A", item: { count: 1, id: "createdieselgenerators:distillation_controller" }, type: "item" }
+				{ id: "0D6C8D14E042CA4A", item: { count: 1, id: "createdieselgenerators:distillation_controller" }, type: "item" }
 			]
 			x: 6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6BC38D74959AFB4A"]
-			id: "CFB7360B87874FA3"
+			id: "4FB7360B87874FA3"
 			rewards: [
 				{ id: "2DAEE7A0ED3ABA22", type: "xp_levels", xp_levels: 5 }
 				{ id: "33256E7888A008A8", item: { count: 2, id: "createdieselgenerators:diesel_bucket" }, type: "item" }
@@ -210,17 +210,17 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
-				{ id: "C06F2717E290845A", item: { count: 1, id: "createdieselgenerators:diesel_bucket" }, type: "item" }
-				{ id: "F2D18E14CE74B084", item: { count: 1, id: "createdieselgenerators:gasoline_bucket" }, type: "item" }
+				{ id: "406F2717E290845A", item: { count: 1, id: "createdieselgenerators:diesel_bucket" }, type: "item" }
+				{ id: "72D18E14CE74B084", item: { count: 1, id: "createdieselgenerators:gasoline_bucket" }, type: "item" }
 			]
 			x: 8.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["CFB7360B87874FA3"]
+			dependencies: ["4FB7360B87874FA3"]
 			id: "7C06B18432AB8CCB"
 			rewards: [
-				{ id: "BD436DBE64A938CA", type: "xp_levels", xp_levels: 1 }
+				{ id: "3D436DBE64A938CA", type: "xp_levels", xp_levels: 1 }
 			]
 			shape: "circle"
 			tasks: [
@@ -257,9 +257,9 @@
 		}
 		{
 			dependencies: ["2A525F12954B5474"]
-			id: "97F58DCFA353964E"
+			id: "17F58DCFA353964E"
 			rewards: [
-				{ id: "C56E025E76E4DE53", type: "xp_levels", xp_levels: 2 }
+				{ id: "456E025E76E4DE53", type: "xp_levels", xp_levels: 2 }
 			]
 			shape: "circle"
 			tasks: [
@@ -272,7 +272,7 @@
 			dependencies: ["2A525F12954B5474"]
 			id: "393DC8371D18F3A2"
 			rewards: [
-				{ id: "C73A491DB30411A6", type: "xp_levels", xp_levels: 1 }
+				{ id: "473A491DB30411A6", type: "xp_levels", xp_levels: 1 }
 			]
 			shape: "circle"
 			tasks: [
@@ -282,16 +282,16 @@
 			y: 6.75d
 		}
 		{
-			dependencies: ["97F58DCFA353964E", "393DC8371D18F3A2", "CFB7360B87874FA3"]
+			dependencies: ["17F58DCFA353964E", "393DC8371D18F3A2", "4FB7360B87874FA3"]
 			id: "1B3638262D888543"
 			rewards: [
 				{ id: "5DF3E66E96773C7C", type: "xp_levels", xp_levels: 10 }
-				{ id: "D4A6EA4198DB8CD6", item: { count: 4, id: "createdieselgenerators:diesel_bucket" }, type: "item" }
+				{ id: "54A6EA4198DB8CD6", item: { count: 4, id: "createdieselgenerators:diesel_bucket" }, type: "item" }
 			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
-				{ id: "80E4D5CD6ABE9893", type: "checkmark" }
+				{ id: "00E4D5CD6ABE9893", type: "checkmark" }
 			]
 			x: 8.0d
 			y: 6.0d

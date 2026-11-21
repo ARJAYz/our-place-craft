@@ -1,0 +1,351 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "2084F3F6FB861C5B"
+	icon: {
+		id: "industrialupgrade:basemachine3/generator_iu"
+	}
+	id: "44B1BD53518A32BC"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6D723515684AD069"
+			rewards: [
+				{ id: "40BC97EE98224D13", type: "xp_levels", xp_levels: 1 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "1A8D77367E7EC318", type: "checkmark" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D723515684AD069"]
+			id: "6931E304723ABEF4"
+			rewards: [
+				{ id: "2F5A843E514DDD6A", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "3F191B137D6EB5EA", item: { count: 1, id: "industrialupgrade:tools/treetap" }, type: "item" }
+				{ id: "4F1700EFB44807FA", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_290_element" }, type: "item" }
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D723515684AD069"]
+			id: "53772F2A51677AFB"
+			rewards: [
+				{ id: "496F33F72256391B", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "4478C74F110D203E", item: { count: 1, id: "industrialupgrade:forge_hammer" }, type: "item" }
+				{ id: "4E7362FC819DF7FA", item: { count: 1, id: "industrialupgrade:cutter" }, type: "item" }
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6931E304723ABEF4", "53772F2A51677AFB"]
+			id: "5AEFE2B87838278C"
+			rewards: [
+				{ id: "572FDF8BF4278A48", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "29DEC52B36FBD6D9", item: { count: 1, id: "industrialupgrade:basemachine3/steamboiler" }, type: "item" }
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5AEFE2B87838278C"]
+			id: "614B4F1844488B54"
+			rewards: [
+				{ id: "342AD08FD1792689", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "7AD6574A24A79C8A", item: { count: 1, id: "industrialupgrade:basemachine3/steam_macerator" }, type: "item" }
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AEFE2B87838278C"]
+			id: "5B6854D189F6335B"
+			rewards: [
+				{ id: "6BCAEC5E958A6F49", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "682671C57E89D1CF", item: { count: 1, id: "industrialupgrade:basemachine3/steam_compressor" }, type: "item" }
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5AEFE2B87838278C"]
+			id: "75BA5A68D6C87318"
+			rewards: [
+				{ id: "0AE159E3F6C72906", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2A61046A84C49829", item: { count: 1, id: "industrialupgrade:basemachine3/steam_rolling" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["614B4F1844488B54", "5B6854D189F6335B", "75BA5A68D6C87318"]
+			id: "08A2A9C0C5C65F3A"
+			rewards: [
+				{ id: "5F0365506C31E0A6", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "562B2A24B52A0BED", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_137_element" }, type: "item" }
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08A2A9C0C5C65F3A"]
+			id: "3B76C4A7A5F294D1"
+			rewards: [
+				{ id: "436D2C78ED922B25", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "3AA28ED2B4807059", item: { count: 1, id: "industrialupgrade:basemachine3/generator_iu" }, type: "item" }
+				{ id: "53F916531908DF9B", item: { count: 1, id: "industrialupgrade:wiring_storage/batbox_iu" }, type: "item" }
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B76C4A7A5F294D1"]
+			id: "79B0F64660CE29F1"
+			rewards: [
+				{ id: "117890F633FF5287", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "4A38BF78B956FBB4", item: { count: 1, id: "industrialupgrade:simplemachine/macerator_iu" }, type: "item" }
+				{ id: "1FCBBC8DE43CAA9D", item: { count: 1, id: "industrialupgrade:simplemachine/furnace_iu" }, type: "item" }
+				{ id: "65C5184C6C4E8C7B", item: { count: 1, id: "industrialupgrade:simplemachine/compressor_iu" }, type: "item" }
+				{ id: "4B5D138803D63B34", item: { count: 1, id: "industrialupgrade:simplemachine/extractor_iu" }, type: "item" }
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79B0F64660CE29F1"]
+			id: "71B38977E329E900"
+			rewards: [
+				{ id: "7692791CF36F74A9", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "3D54C2FD161D82CA", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_272_element" }, type: "item" }
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79B0F64660CE29F1"]
+			id: "661E01853CE7AA6A"
+			rewards: [
+				{ id: "4F7CD90799421D07", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "30F9A75D26CE9D4C", item: { count: 1, id: "industrialupgrade:basemachine/alloy_smelter" }, type: "item" }
+			]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71B38977E329E900"]
+			id: "0102C3BF0E02F29D"
+			rewards: [
+				{ id: "4BCE368B6C906952", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "550204B3CA1CF4B7", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_273_element" }, type: "item" }
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0102C3BF0E02F29D"]
+			id: "26C86DA596F76B38"
+			rewards: [
+				{ id: "5EFDA235EDB5992C", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "6C06826B33C25EC3", item: { count: 1, id: "industrialupgrade:wiring_storage/mfe_iu" }, type: "item" }
+			]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26C86DA596F76B38", "661E01853CE7AA6A"]
+			id: "0EF8E6FD9E35968E"
+			rewards: [
+				{ id: "7443169E94B467FA", type: "xp_levels", xp_levels: 6 }
+				{ id: "1E769F12344DB54B", item: { count: 2, id: "industrialupgrade:crafting_elements/crafting_273_element" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "00AE05C1A6AA6698", item: { count: 1, id: "industrialupgrade:circuit/nanocircuit" }, type: "item" }
+			]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08A2A9C0C5C65F3A"]
+			id: "3AC864ACD20B833B"
+			rewards: [
+				{ id: "2FB30D923888712F", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2A2B2D385EC182E8", item: { count: 1, id: "industrialupgrade:basemachine3/solar_iu" }, type: "item" }
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08A2A9C0C5C65F3A"]
+			id: "33FC042C40D89567"
+			rewards: [
+				{ id: "421B87CFE987D14A", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "5A3545FCA952F555", item: { count: 1, id: "industrialupgrade:basemachine3/simple_wind_generator" }, type: "item" }
+			]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08A2A9C0C5C65F3A"]
+			id: "586068033EC2B64A"
+			rewards: [
+				{ id: "02462654AE9CE872", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "7F342CE0808FF79E", item: { count: 1, id: "industrialupgrade:basemachine3/watergenerator" }, type: "item" }
+			]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08A2A9C0C5C65F3A"]
+			id: "79144C782B866FFB"
+			rewards: [
+				{ id: "2DE5DC8AF71C18D2", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "10E3595FF7B521B4", item: { count: 1, id: "industrialupgrade:basemachine3/geogenerator_iu" }, type: "item" }
+			]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08A2A9C0C5C65F3A"]
+			id: "6FB5E2593C411E51"
+			rewards: [
+				{ id: "433AA1B6C16B94E1", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "24EF662043885ED1", item: { count: 1, id: "industrialupgrade:basemachine2/gen_disel" }, type: "item" }
+			]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3AC864ACD20B833B", "33FC042C40D89567", "586068033EC2B64A", "79144C782B866FFB", "6FB5E2593C411E51"]
+			id: "6114F67193ABC46C"
+			rewards: [
+				{ id: "45565B3F3D60C525", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "1A6B883F0ACA33BA", item: { count: 1, id: "powerutils:converter/power_utilities_fe" }, type: "item" }
+			]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53772F2A51677AFB"]
+			id: "074A38B2F7C8972F"
+			rewards: [
+				{ id: "659F9C2DE17C8BE5", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2FF6AD64D632C239", item: { count: 1, id: "industrialupgrade:raw_metals/raw_titanium" }, type: "item" }
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["074A38B2F7C8972F"]
+			id: "4C13306AEA01BFF1"
+			rewards: [
+				{ id: "12C1D928622B8844", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "54CB0DC86C7622B4", item: { count: 1, id: "createoreexcavation:drill" }, type: "item" }
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C13306AEA01BFF1", "79B0F64660CE29F1"]
+			id: "02A0CF86E2824B4B"
+			rewards: [
+				{ id: "2DAE84A9750F4AFA", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2AB172D495B186EF", item: { count: 1, id: "industrialupgrade:moremachine1/comb_macerator" }, type: "item" }
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02A0CF86E2824B4B"]
+			id: "7212BAEEF9FA932D"
+			rewards: [
+				{ id: "66B224949EC63EAF", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "4772430EE91BDC57", item: { count: 1, id: "simplyquarries:simplyquarries/simply_quarry" }, type: "item" }
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+	]
+}

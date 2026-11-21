@@ -1,0 +1,397 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iu_hitech"
+	group: "3B0071CCD5F4E81E"
+	icon: {
+		id: "industrialupgrade:basemachine3/rocket_launch_pad"
+	}
+	id: "173EF353072E56E6"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "411F56F2688FFBA3"
+			rewards: [
+				{ id: "68A5301E2C7525FE", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "4D0044C640E55DAB", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_272_element" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["411F56F2688FFBA3"]
+			id: "183A5A00EE0F686A"
+			rewards: [
+				{ id: "5569334053E5D7A7", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "3326F4C777608B9A", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_273_element" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["411F56F2688FFBA3"]
+			id: "1E2F7D5FFCFF69C3"
+			rewards: [
+				{ id: "54894FA993928191", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "6908CD498CC1A5BC", item: { count: 1, id: "industrialupgrade:basemachine/generator_microchip" }, type: "item" }
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["183A5A00EE0F686A"]
+			id: "3BCAA5B8E042CD6B"
+			rewards: [
+				{ id: "5122B3E383A03616", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "4419764E51F4D585", item: { count: 1, id: "industrialupgrade:circuit/nanocircuit" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BCAA5B8E042CD6B"]
+			id: "53AE3D50FC7B8921"
+			rewards: [
+				{ id: "134215A7EA4800B4", type: "xp_levels", xp_levels: 7 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2F0EA2EC8376A4B9", item: { count: 1, id: "industrialupgrade:circuit/quantumcircuit" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53AE3D50FC7B8921"]
+			id: "4A520900B5454BD6"
+			rewards: [
+				{ id: "159D01AB7173E1A0", type: "xp_levels", xp_levels: 9 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2A800FDB83CD70F2", item: { count: 1, id: "industrialupgrade:circuit/spectralcircuit" }, type: "item" }
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A520900B5454BD6"]
+			id: "437903AFFEF05932"
+			rewards: [
+				{ id: "4D59C4C8FF664238", type: "xp_levels", xp_levels: 12 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "41D337C01E7D979C", item: { count: 1, id: "industrialupgrade:circuit/photoncircuit" }, type: "item" }
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BCAA5B8E042CD6B"]
+			id: "3C786116D59A5D41"
+			rewards: [
+				{ id: "75D9671F1076487F", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "3FACC3F902991EED", item: { count: 1, id: "industrialupgrade:itemcore/advcore" }, type: "item" }
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C786116D59A5D41"]
+			id: "443969FA7B20A7CA"
+			rewards: [
+				{ id: "785FD16C46981647", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "7E473E41881B675F", item: { count: 1, id: "industrialupgrade:itemcore/hybcore" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["443969FA7B20A7CA"]
+			id: "45AE216FA56AF413"
+			rewards: [
+				{ id: "7C68F16A8F0BF381", type: "xp_levels", xp_levels: 7 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "71800F9D23634A7B", item: { count: 1, id: "industrialupgrade:itemcore/ultcore" }, type: "item" }
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45AE216FA56AF413", "53AE3D50FC7B8921"]
+			id: "2E1CDBE612F43112"
+			rewards: [
+				{ id: "1C2D7E22A978258C", type: "xp_levels", xp_levels: 10 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "3E5704F60B80A3F7", item: { count: 1, id: "industrialupgrade:itemcore/quacore" }, type: "item" }
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C786116D59A5D41"]
+			id: "455354D4B860EACF"
+			rewards: [
+				{ id: "474690F797100493", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "3AA754867258F7B6", item: { count: 1, id: "industrialupgrade:molecular/molecular" }, type: "item" }
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["455354D4B860EACF"]
+			id: "3EB01E539766F789"
+			rewards: [
+				{ id: "60971094D7A04BAD", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "219258BDB0C3171E", item: { count: 1, id: "industrialupgrade:itemsunnarium/sunnariumpart" }, type: "item" }
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EB01E539766F789"]
+			id: "3F69A59DA1939FDB"
+			rewards: [
+				{ id: "5811F517FADD481B", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "3C0BCF15D3654DED", item: { count: 1, id: "industrialupgrade:itemsunnarium/sunnarium2" }, type: "item" }
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["455354D4B860EACF"]
+			id: "4BDE0CC722FE8EA8"
+			rewards: [
+				{ id: "360166DEE54A3D6B", type: "xp_levels", xp_levels: 8 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "6377ABCFAC14D7D6", item: { count: 1, id: "industrialupgrade:simplemachine/generator_matter" }, type: "item" }
+			]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4BDE0CC722FE8EA8"]
+			id: "745F2E2086865A30"
+			rewards: [
+				{ id: "68D61C66AF44129A", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "713B42BDB2B44B1C", item: { count: 1, id: "industrialupgrade:basemachine3/scanner_iu" }, type: "item" }
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["745F2E2086865A30"]
+			id: "56B45F60917CA77E"
+			rewards: [
+				{ id: "35D2E4F2BAC80764", type: "xp_levels", xp_levels: 10 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "518D88BE4B452BE3", item: { count: 1, id: "industrialupgrade:basemachine3/replicator_iu" }, type: "item" }
+			]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F69A59DA1939FDB", "56B45F60917CA77E"]
+			id: "608296723649B97F"
+			rewards: [
+				{ id: "37F3795A8EBAC811", type: "xp_levels", xp_levels: 10 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "4F0982CA8DF103C2", item: { count: 1, id: "industrialupgrade:basemachine3/teleporter_iu" }, type: "item" }
+			]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["56B45F60917CA77E"]
+			id: "483692B5AF9516D7"
+			rewards: [
+				{ id: "56E2286318FE3F84", type: "xp_levels", xp_levels: 12 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "59095057745C46A1", item: { count: 1, id: "industrialupgrade:basemachine/quantum_quarry" }, type: "item" }
+			]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["183A5A00EE0F686A"]
+			id: "4D6BF58CCB295A52"
+			rewards: [
+				{ id: "61DD34DA39386762", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "1605D9CEF4C56D5F", item: { count: 1, id: "industrialupgrade:tome_research" }, type: "item" }
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4D6BF58CCB295A52"]
+			id: "7F1C0A6500C734C0"
+			rewards: [
+				{ id: "339673965D641702", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "1EEBB61DC5D971D9", item: { count: 1, id: "industrialupgrade:basemachine3/research_table_space" }, type: "item" }
+			]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7F1C0A6500C734C0"]
+			id: "255D810DAEEFC82B"
+			rewards: [
+				{ id: "134B91E4D2D69DBE", type: "xp_levels", xp_levels: 10 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "74E810D2492A9BB6", item: { count: 1, id: "industrialupgrade:basemachine3/rocket_assembler" }, type: "item" }
+				{ id: "286EF4F41BF069FA", item: { count: 1, id: "industrialupgrade:basemachine3/rocket_launch_pad" }, type: "item" }
+			]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["255D810DAEEFC82B"]
+			id: "5686E04C64A4F12B"
+			rewards: [
+				{ id: "57EC626A201F450B", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "3D1BC01BCACEA346", item: { count: 1, id: "industrialupgrade:basemachine3/probe_assembler" }, type: "item" }
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["255D810DAEEFC82B"]
+			id: "636127F64475E3C7"
+			rewards: [
+				{ id: "644C121BA12AB58D", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2AA9C209343A1797", item: { count: 1, id: "industrialupgrade:basemachine3/satellite_assembler" }, type: "item" }
+			]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5686E04C64A4F12B", "636127F64475E3C7"]
+			id: "1C05A60E3C847887"
+			rewards: [
+				{ id: "132255AB6C68774B", type: "xp_levels", xp_levels: 10 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "41B4388F2CF1B54D", item: { count: 1, id: "industrialupgrade:basemachine3/rover_assembler" }, type: "item" }
+			]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			id: "7699F3749DD82BC7"
+			rewards: [
+				{ id: "11557B078D2ECBF8", type: "xp_levels", xp_levels: 2 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "1D18AC799E55D268", item: { count: 1, id: "industrialupgrade:crop/crop" }, type: "item" }
+			]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7699F3749DD82BC7"]
+			id: "2BD022A2167657C2"
+			rewards: [
+				{ id: "297665119B6D9F22", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "3F6A50222A74D12B", type: "checkmark" }
+			]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7699F3749DD82BC7"]
+			id: "69D0EB50503774B2"
+			rewards: [
+				{ id: "5BF7B04E300102F4", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "19EEC1E8EC6BF1F4", item: { count: 1, id: "industrialupgrade:apiary/apiary" }, type: "item" }
+			]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["69D0EB50503774B2"]
+			id: "32A6A085DC26128D"
+			rewards: [
+				{ id: "469B617D1B28FCD8", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "504CAB5B8E2BA0CB", item: { count: 1, id: "industrialupgrade:basemachine3/apothecary_bee" }, type: "item" }
+			]
+			x: 6.0d
+			y: 8.5d
+		}
+	]
+}

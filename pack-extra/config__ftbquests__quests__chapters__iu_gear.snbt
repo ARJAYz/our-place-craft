@@ -1,0 +1,184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iu_gear"
+	group: "3B0071CCD5F4E81E"
+	icon: {
+		id: "industrialupgrade:armour/nano_chestplate"
+	}
+	id: "5D978A9C9B45E4E9"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "463CCEDFDD1BE480"
+			rewards: [
+				{ id: "69983C01143CF954", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "square"
+			tasks: [
+				{ id: "46F022C31A34C78B", item: { count: 1, id: "industrialupgrade:armour/bronze_helmet" }, type: "item" }
+				{ id: "1665A094EEB4818F", item: { count: 1, id: "industrialupgrade:armour/bronze_chestplate" }, type: "item" }
+				{ id: "2B5DE51534FCD56C", item: { count: 1, id: "industrialupgrade:armour/bronze_leggings" }, type: "item" }
+				{ id: "571C6D77624D867E", item: { count: 1, id: "industrialupgrade:armour/bronze_boots" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["463CCEDFDD1BE480"]
+			id: "1A6F919786A32FB1"
+			rewards: [
+				{ id: "483968B0CABE7BFB", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "6555437DA5CD4C06", item: { count: 1, id: "industrialupgrade:armour/batpack" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["463CCEDFDD1BE480"]
+			id: "466A343F8B73F5CE"
+			rewards: [
+				{ id: "39EE127F5DE62EF8", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "574DC32A814E0B7D", item: { count: 1, id: "industrialupgrade:energy_tools/drill" }, type: "item" }
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["466A343F8B73F5CE"]
+			id: "74FC365953E6C468"
+			rewards: [
+				{ id: "4824BFC20D786AB4", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "1894EB7E26418D66", item: { count: 1, id: "industrialupgrade:energy_tools/diamond_drill" }, type: "item" }
+				{ id: "46C115F5A1435563", item: { count: 1, id: "industrialupgrade:energy_tools/chainsaw" }, type: "item" }
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A6F919786A32FB1"]
+			id: "6190FA9A20A9E1D1"
+			rewards: [
+				{ id: "2DE5F79CE850351A", type: "xp_levels", xp_levels: 3 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "14E0AC2CFC45D68B", item: { count: 1, id: "industrialupgrade:armour/nightvision_goggles" }, type: "item" }
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A6F919786A32FB1"]
+			id: "77BFCF9609E5410C"
+			rewards: [
+				{ id: "492C2F850AA6BA3E", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "1065103D270EC889", item: { count: 1, id: "industrialupgrade:armour/jetpack" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77BFCF9609E5410C"]
+			id: "560BB6653E1297FA"
+			rewards: [
+				{ id: "2789D1F1BAF1CD30", type: "xp_levels", xp_levels: 4 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2FBD156D5D4D5029", item: { count: 1, id: "industrialupgrade:armour/lappack" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74FC365953E6C468", "77BFCF9609E5410C"]
+			id: "605200B5C82F9A2F"
+			rewards: [
+				{ id: "2BEFDC08C3EAD959", type: "xp_levels", xp_levels: 8 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "28D354023D12393A", item: { count: 1, id: "industrialupgrade:armour/nano_helmet" }, type: "item" }
+				{ id: "53DA6B60D7F4986A", item: { count: 1, id: "industrialupgrade:armour/nano_chestplate" }, type: "item" }
+				{ id: "667D46B9E7D7F156", item: { count: 1, id: "industrialupgrade:armour/nano_leggings" }, type: "item" }
+				{ id: "55913955170030F0", item: { count: 1, id: "industrialupgrade:armour/nano_boots" }, type: "item" }
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["605200B5C82F9A2F"]
+			id: "1E312D6DE4576C12"
+			rewards: [
+				{ id: "1E2BD9FA7526B1DC", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "2ED20747482A07A7", item: { count: 1, id: "industrialupgrade:energy_tools/itemnanosaber" }, type: "item" }
+			]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["605200B5C82F9A2F"]
+			id: "70C3F06A43A846F5"
+			rewards: [
+				{ id: "3CAC453F420A04C1", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "29377E9A4A0DC3EC", item: { count: 1, id: "industrialupgrade:energy_tools/nanodrill" }, type: "item" }
+				{ id: "76033C8C99A480EB", item: { count: 1, id: "industrialupgrade:energy_tools/nanoaxe" }, type: "item" }
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["560BB6653E1297FA"]
+			id: "3FA06D9A02F8E7B5"
+			rewards: [
+				{ id: "730D052921AD33F3", type: "xp_levels", xp_levels: 6 }
+			]
+			shape: "circle"
+			tasks: [
+				{ id: "46554C07278B1D95", item: { count: 1, id: "industrialupgrade:armour/advjetpack" }, type: "item" }
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["605200B5C82F9A2F", "3FA06D9A02F8E7B5"]
+			id: "6574D6676D05FFEA"
+			rewards: [
+				{ id: "5F06370A0B26CFAF", type: "xp_levels", xp_levels: 15 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "7EEFD48DD5CA940A", item: { count: 1, id: "industrialupgrade:armour/quantum_helmet" }, type: "item" }
+				{ id: "145C59DFE3EEB2EF", item: { count: 1, id: "industrialupgrade:armour/quantum_chestplate" }, type: "item" }
+				{ id: "6D1110BA187ADAD8", item: { count: 1, id: "industrialupgrade:armour/quantum_leggings" }, type: "item" }
+				{ id: "26FD28BE3B4CD8AF", item: { count: 1, id: "industrialupgrade:armour/quantum_boots" }, type: "item" }
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+	]
+}

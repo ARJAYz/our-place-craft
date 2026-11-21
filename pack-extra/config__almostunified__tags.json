@@ -1,0 +1,42 @@
+{
+  "custom_tags": {},
+  "tag_substitutions": {
+    "c:dusts/aluminum": [
+      "c:dusts/aluminium"
+    ],
+    "c:gears/aluminum": [
+      "c:gears/aluminium"
+    ],
+    "c:ingots/aluminum": [
+      "c:ingots/aluminium"
+    ],
+    "c:nuggets/aluminum": [
+      "c:nuggets/aluminium"
+    ],
+    "c:ores/aluminum": [
+      "c:ores/aluminium"
+    ],
+    "c:plates/aluminum": [
+      "c:plates/aluminium"
+    ],
+    "c:raw_materials/aluminum": [
+      "c:raw_materials/aluminium"
+    ],
+    "c:rods/aluminum": [
+      "c:rods/aluminium"
+    ],
+    "c:wires/aluminum": [
+      "c:wires/aluminium"
+    ],
+    "c:storage_blocks/aluminum": [
+      "c:storage_blocks/aluminium"
+    ],
+    "c:storage_blocks/raw_aluminum": [
+      "c:storage_blocks/raw_aluminium"
+    ]
+  },
+  "item_tag_inheritance_mode": "ALLOW",
+  "item_tag_inheritance": {},
+  "block_tag_inheritance_mode": "ALLOW",
+  "block_tag_inheritance": {}
+}

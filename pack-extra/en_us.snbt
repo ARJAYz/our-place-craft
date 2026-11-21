@@ -7890,9 +7890,9 @@
 	chapter.63F17F68335641EC.chapter_subtitle: [
 		"Oil, biofuel and engines for aircraft"
 	]
-	quest.C7A46F74EF9513C3.title: "&6&lThe Diesel Age"
-	quest.C7A46F74EF9513C3.quest_subtitle: "Craft an engine piston"
-	quest.C7A46F74EF9513C3.quest_desc: [
+	quest.47A46F74EF9513C3.title: "&6&lThe Diesel Age"
+	quest.47A46F74EF9513C3.quest_subtitle: "Craft an engine piston"
+	quest.47A46F74EF9513C3.quest_desc: [
 		"&6Create: Diesel Generators&r adds &ecombustion engines&r that spin Create shafts on liquid fuel."
 		""
 		"It all starts with an &6engine piston&r. Check JEI (R) and Ponder (hold &eW&r)."
@@ -7904,28 +7904,28 @@
 		""
 		"Any fuel from this chapter works: &eplant oil&r, &eethanol&r, &ebiodiesel&r, &egasoline&r, &ediesel&r. Better fuel = more speed and stress capacity (check with goggles)."
 	]
-	quest.BBC59EB105B18324.title: "Modular Engine"
-	quest.BBC59EB105B18324.quest_subtitle: "Chain them up"
-	quest.BBC59EB105B18324.quest_desc: [
+	quest.3BC59EB105B18324.title: "Modular Engine"
+	quest.3BC59EB105B18324.quest_subtitle: "Chain them up"
+	quest.3BC59EB105B18324.quest_desc: [
 		"The &6Modular Diesel Engine&r stacks along a shaft — each block adds more power."
 		""
 		"Great for factories that outgrew water wheels and steam engines."
 	]
-	quest.840EFC8894FFBFDE.title: "Huge Engine"
-	quest.840EFC8894FFBFDE.quest_subtitle: "Steam-engine scale power"
-	quest.840EFC8894FFBFDE.quest_desc: [
+	quest.040EFC8894FFBFDE.title: "Huge Engine"
+	quest.040EFC8894FFBFDE.quest_subtitle: "Steam-engine scale power"
+	quest.040EFC8894FFBFDE.quest_desc: [
 		"The &6Huge Diesel Engine&r works like a diesel steam engine: build it around a shaft with &epowered engine shafts&r."
 		""
 		"The strongest rotation source in the mod."
 	]
-	quest.9A5EC31676CB01B8.title: "Turbocharger"
-	quest.9A5EC31676CB01B8.quest_subtitle: "More RPM"
-	quest.9A5EC31676CB01B8.quest_desc: [
+	quest.1A5EC31676CB01B8.title: "Turbocharger"
+	quest.1A5EC31676CB01B8.quest_subtitle: "More RPM"
+	quest.1A5EC31676CB01B8.quest_desc: [
 		"Right-click an engine with a &6Turbocharger&r to boost its output."
 	]
-	quest.BD0D38CCE2B759E7.title: "Silencer"
-	quest.BD0D38CCE2B759E7.quest_subtitle: "Keep it down"
-	quest.BD0D38CCE2B759E7.quest_desc: [
+	quest.3D0D38CCE2B759E7.title: "Silencer"
+	quest.3D0D38CCE2B759E7.quest_subtitle: "Keep it down"
+	quest.3D0D38CCE2B759E7.quest_desc: [
 		"The &6Silencer&r mutes the engine noise. Your neighbours will thank you."
 	]
 	quest.5676E19C94E6C7F3.title: "Plant Oil"
@@ -7952,9 +7952,9 @@
 		""
 		"Good fuel without any oil: farms are enough!"
 	]
-	quest.D345185F64CB43EB.title: "Oil Scanner"
-	quest.D345185F64CB43EB.quest_subtitle: "Where to drill?"
-	quest.D345185F64CB43EB.quest_desc: [
+	quest.5345185F64CB43EB.title: "Oil Scanner"
+	quest.5345185F64CB43EB.quest_subtitle: "Where to drill?"
+	quest.5345185F64CB43EB.quest_desc: [
 		"The &6Oil Scanner&r shows how much oil lies under the current chunk."
 		""
 		"Some biomes have more oil than others. Find a rich chunk."
@@ -7966,9 +7966,9 @@
 		""
 		"Follow the Ponder scene (W) for exact placement."
 	]
-	quest.8849872FB46CE97C.title: "Crude Oil"
-	quest.8849872FB46CE97C.quest_subtitle: "Black gold"
-	quest.8849872FB46CE97C.quest_desc: [
+	quest.0849872FB46CE97C.title: "Crude Oil"
+	quest.0849872FB46CE97C.quest_subtitle: "Black gold"
+	quest.0849872FB46CE97C.quest_desc: [
 		"&6Crude oil&r burns poorly — it has to be distilled."
 	]
 	quest.6BC38D74959AFB4A.title: "Distillation Tower"
@@ -7978,9 +7978,9 @@
 		""
 		"It needs a &eheated blaze burner&r below. Each level outputs its own fraction."
 	]
-	quest.CFB7360B87874FA3.title: "&eDiesel & Gasoline"
-	quest.CFB7360B87874FA3.quest_subtitle: "Top-tier fuel"
-	quest.CFB7360B87874FA3.quest_desc: [
+	quest.4FB7360B87874FA3.title: "&eDiesel & Gasoline"
+	quest.4FB7360B87874FA3.quest_subtitle: "Top-tier fuel"
+	quest.4FB7360B87874FA3.quest_desc: [
 		"Distillation yields &6diesel&r and &6gasoline&r — the strongest fuel for engines and aircraft."
 		""
 		"Store it in tanks or &eoil barrels&r, carry it in &ecanisters&r."
@@ -8006,9 +8006,9 @@
 		""
 		"More tanks — longer flights."
 	]
-	quest.97F58DCFA353964E.title: "Fill Port"
-	quest.97F58DCFA353964E.quest_subtitle: "Refuel at the dock"
-	quest.97F58DCFA353964E.quest_desc: [
+	quest.17F58DCFA353964E.title: "Fill Port"
+	quest.17F58DCFA353964E.quest_subtitle: "Refuel at the dock"
+	quest.17F58DCFA353964E.quest_desc: [
 		"The &6Fill Port&r lets you pump fuel into the ship's tanks from pipes or a canister — build a refuel station at your airfield."
 	]
 	quest.393DC8371D18F3A2.title: "Engine Cutoff Lever"
@@ -8023,4 +8023,234 @@
 		""
 		"Take off and tick this quest. Happy flying, pilot!"
 	]
+	chapter.44B1BD53518A32BC.title: "&e8.&r &aIndustrial Upgrade"
+	chapter.44B1BD53518A32BC.chapter_subtitle: [
+		"Steam, electricity, alloys and links to other mods"
+	]
+	quest.6D723515684AD069.title: "&e&lIndustrial Upgrade"
+	quest.6D723515684AD069.quest_subtitle: "A huge tech branch"
+	quest.6D723515684AD069.quest_desc: [
+		"&eIndustrial Upgrade&r is the successor of IndustrialCraft: electric machines, steam, reactors, solar panels, alloys and even space."
+		""
+		"The mod has its own detailed &6guide book&r (it is in your &bAkashic Tome&r)."
+		""
+		"Tick this quest once you have opened it."
+	]
+	quest.6931E304723ABEF4.title: "Sticky Resin"
+	quest.6931E304723ABEF4.quest_subtitle: "Treetap and rubber trees"
+	quest.6931E304723ABEF4.quest_desc: [
+		"Find a &2rubber tree&r and collect &6sticky resin&r with a &etreetap&r."
+		"Resin becomes rubber for cable insulation and machine parts."
+	]
+	quest.53772F2A51677AFB.title: "Hand tools"
+	quest.53772F2A51677AFB.quest_subtitle: "Hammer and cutter"
+	quest.53772F2A51677AFB.quest_desc: [
+		"The &6Forge Hammer&r turns ingots into plates, the &6Cutter&r cuts plates into wires."
+		"Create plates work too — metals are shared in this pack."
+	]
+	quest.5AEFE2B87838278C.title: "Steam Boiler"
+	quest.5AEFE2B87838278C.quest_subtitle: "The steam age"
+	quest.5AEFE2B87838278C.quest_desc: [
+		"The first IU machines run on &fsteam&r. The &6Steam Boiler&r heats water with fuel."
+	]
+	quest.614B4F1844488B54.title: "Steam Macerator"
+	quest.614B4F1844488B54.quest_subtitle: "Ore doubling"
+	quest.614B4F1844488B54.quest_desc: [
+		"The &6Steam Macerator&r turns ore into &ecrushed ore&r for more metal."
+	]
+	quest.5B6854D189F6335B.title: "Steam Compressor"
+	quest.5B6854D189F6335B.quest_subtitle: "Dense materials"
+	quest.5B6854D189F6335B.quest_desc: [
+		"The &6Steam Compressor&r presses materials for many parts."
+	]
+	quest.75BA5A68D6C87318.title: "Steam Rolling Mill"
+	quest.75BA5A68D6C87318.quest_subtitle: "Plates without a hammer"
+	quest.75BA5A68D6C87318.quest_desc: [
+		"The &6Steam Rolling Mill&r makes plates automatically."
+	]
+	quest.08A2A9C0C5C65F3A.title: "Machine Casing"
+	quest.08A2A9C0C5C65F3A.quest_subtitle: "The base of electric machines"
+	quest.08A2A9C0C5C65F3A.quest_desc: [
+		"The &6Machine Casing&r is the base of almost every electric IU machine."
+	]
+	quest.3B76C4A7A5F294D1.title: "Generator and BatBox"
+	quest.3B76C4A7A5F294D1.quest_subtitle: "First electricity"
+	quest.3B76C4A7A5F294D1.quest_desc: [
+		"The &6Generator&r burns fuel into IU energy (EF), the &6BatBox&r stores it."
+	]
+	quest.79B0F64660CE29F1.title: "Basic machines"
+	quest.79B0F64660CE29F1.quest_subtitle: "Macerator, furnace, compressor, extractor"
+	quest.79B0F64660CE29F1.quest_desc: [
+		"The four core electric IU machines."
+		"IU ores can also go through &eCreate crushing wheels&r."
+	]
+	quest.71B38977E329E900.title: "Electronic Circuit"
+	quest.71B38977E329E900.quest_subtitle: "Beginnings of electronics"
+	quest.71B38977E329E900.quest_desc: [
+		"The &6Electronic Circuit&r unlocks advanced machines."
+	]
+	quest.661E01853CE7AA6A.title: "Alloy Smelter"
+	quest.661E01853CE7AA6A.quest_subtitle: "Bronze, steel and many alloys"
+	quest.661E01853CE7AA6A.quest_desc: [
+		"The &6Alloy Smelter&r makes the alloys needed for advanced casings."
+	]
+	quest.0102C3BF0E02F29D.title: "Advanced Circuit"
+	quest.0102C3BF0E02F29D.quest_subtitle: "Progress in electronics"
+	quest.0102C3BF0E02F29D.quest_desc: [
+		"The next tier of circuits."
+	]
+	quest.26C86DA596F76B38.title: "MFE"
+	quest.26C86DA596F76B38.quest_subtitle: "Big energy storage"
+	quest.26C86DA596F76B38.quest_desc: [
+		"The &6MFE&r stores much more energy."
+	]
+	quest.0EF8E6FD9E35968E.title: "&cNano Circuit"
+	quest.0EF8E6FD9E35968E.quest_subtitle: "Nanotechnology"
+	quest.0EF8E6FD9E35968E.quest_desc: [
+		"Nano circuits open nano armour and the next IU eras."
+	]
+	quest.3AC864ACD20B833B.title: "Solar Panel"
+	quest.3AC864ACD20B833B.quest_subtitle: "Free daytime energy"
+	quest.3AC864ACD20B833B.quest_desc: [
+		"The &6Solar Panel&r makes energy during the day."
+	]
+	quest.33FC042C40D89567.title: "Wind Generator"
+	quest.33FC042C40D89567.quest_subtitle: "Wind power"
+	quest.33FC042C40D89567.quest_desc: [
+		"Works best high up in open space."
+	]
+	quest.586068033EC2B64A.title: "Water Generator"
+	quest.586068033EC2B64A.quest_subtitle: "Water power"
+	quest.586068033EC2B64A.quest_desc: [
+		"Place it in a river or the sea."
+	]
+	quest.79144C782B866FFB.title: "Geothermal Generator"
+	quest.79144C782B866FFB.quest_subtitle: "Lava power"
+	quest.79144C782B866FFB.quest_desc: [
+		"Turns lava into energy."
+	]
+	quest.6FB5E2593C411E51.title: "IU Diesel Generator"
+	quest.6FB5E2593C411E51.quest_subtitle: "Liquid fuel"
+	quest.6FB5E2593C411E51.quest_desc: [
+		"Runs on liquid fuel."
+	]
+	quest.6114F67193ABC46C.title: "&bEF/FE Converter"
+	quest.6114F67193ABC46C.quest_subtitle: "The bridge between mods"
+	quest.6114F67193ABC46C.quest_desc: [
+		"IU uses its own &eEF&r energy. The &6EF/FE Energy Converter&r (Power Utilities) converts it to &eFE&r and back."
+	]
+	quest.074A38B2F7C8972F.title: "IU ores"
+	quest.074A38B2F7C8972F.quest_subtitle: "New metals"
+	quest.074A38B2F7C8972F.quest_desc: [
+		"IU adds dozens of metals: titanium, tungsten, chromium, cobalt and more."
+		"&cNote:&r already explored chunks do not have them — use &eCreate Ore Excavation&r drills on the new IU veins."
+	]
+	quest.4C13306AEA01BFF1.title: "Drill veins"
+	quest.4C13306AEA01BFF1.quest_subtitle: "IU metals in the old world"
+	quest.4C13306AEA01BFF1.quest_desc: [
+		"There are 14 new Create Ore Excavation veins with IU metals. Find them with the vein finder."
+	]
+	quest.02A0CF86E2824B4B.title: "Combined Macerator"
+	quest.02A0CF86E2824B4B.quest_subtitle: "Ore ×3"
+	quest.02A0CF86E2824B4B.quest_desc: [
+		"Up to three portions from one ore."
+	]
+	quest.7212BAEEF9FA932D.title: "Quarry"
+	quest.7212BAEEF9FA932D.quest_subtitle: "Automatic mining"
+	quest.7212BAEEF9FA932D.quest_desc: [
+		"The &6Quarry&r digs on its own."
+	]
+	chapter_group.3B0071CCD5F4E81E.title: "&e⚙ Industrial Upgrade"
+	chapter.74E870A466E60697.title: "&eIU: энергия и хранение"
+	quest.7AEE04891F5D88BB.title: "Generator"
+	quest.7284F73F567CC5A2.title: "BatBox"
+	quest.743C95641EAD162F.title: "Cables"
+	quest.6B95A1007381CAB6.title: "CESU"
+	quest.307EAFB8C9B2189C.title: "MFE"
+	quest.4E3E15254955411B.title: "MFSU"
+	quest.661AC556665B4307.title: "Transformers"
+	quest.30F775757BEA66C6.title: "Solar"
+	quest.48F917AA34E4DC6B.title: "Advanced Solar"
+	quest.69A0A39F2A810937.title: "Hybrid Solar"
+	quest.2551CB175D41EA92.title: "Ultimate Solar"
+	quest.26B59EAA9B997F7D.title: "Quantum Solar"
+	quest.40312064051ACA7D.title: "Wind"
+	quest.1DB0118C2E7BEA2F.title: "Water"
+	quest.3141721E8283453C.title: "Geothermal"
+	quest.165977E694043FBB.title: "SE Generator"
+	quest.6F3E7CF96CF60E3F.title: "EF/FE Converter"
+	chapter.210B1C36184D672F.title: "&eIU: нефть, металлургия и химия"
+	quest.3C558C48CAA5DFB7.title: "Ore Washing"
+	quest.4D2A89C2AA77731D.title: "Combined Macerator"
+	quest.77B832EC587522A4.title: "Mineral Separator"
+	quest.5DDA824B6C698648.title: "Blast Furnace"
+	quest.7099B13803B7ECD2.title: "Steel"
+	quest.32E6A608908B6BF8.title: "Alloy Smelter"
+	quest.7353940305E6D3E7.title: "Stainless Steel"
+	quest.46D89D2B55CE7244.title: "Extruder & Cutter"
+	quest.3E7A27BC571E38E2.title: "Pumpjack"
+	quest.2F9BCB7797364F5E.title: "Oil Refinery"
+	quest.21DBDB50F9107679.title: "Petrol Generator"
+	quest.78AD7104C9A31600.title: "Diesel Generator"
+	quest.7498B960DBF6D8CA.title: "Advanced Refinery"
+	quest.74C6A1970EAC0ACE.title: "Chemical Plant"
+	quest.283938348CB2B7D6.title: "Plastic Plates"
+	quest.68EC1D2545C54EA6.title: "Electrolyzer"
+	quest.7C354A9F9A1C8792.title: "Hydrogen Generator"
+	chapter.3A18502D8A7F5466.title: "&eIU: ядерная энергия"
+	quest.6E0954CFFD77581E.title: "Hazmat suit"
+	quest.49CE73632FB101E3.title: "Uranium"
+	quest.3813A806568BC0B0.title: "Enrichment"
+	quest.1C45E06B9B9697F7.title: "Irradiant Uranium"
+	quest.3021552A02719F3E.title: "Nuclear Reactor"
+	quest.6B3773F6560C7BD3.title: "Liquid Reactor"
+	quest.64FC3F7E0E8C7849.title: "Graphite Reactor"
+	quest.45439015DDF67946.title: "Gas Reactor"
+	quest.17E32AEF2EADFA93.title: "HT Reactor"
+	quest.5065BBE3AA8FEE55.title: "Steam Turbine"
+	quest.5AE141D829EA587B.title: "Improved Reactor"
+	quest.4694309695517678.title: "Fusion Reactor"
+	chapter.5D978A9C9B45E4E9.title: "&eIU: снаряжение"
+	quest.463CCEDFDD1BE480.title: "Bronze armor"
+	quest.1A6F919786A32FB1.title: "Batpack"
+	quest.466A343F8B73F5CE.title: "Drill"
+	quest.74FC365953E6C468.title: "Diamond drill & chainsaw"
+	quest.6190FA9A20A9E1D1.title: "Night vision"
+	quest.77BFCF9609E5410C.title: "Jetpack"
+	quest.560BB6653E1297FA.title: "Lappack"
+	quest.605200B5C82F9A2F.title: "Nano suit"
+	quest.1E312D6DE4576C12.title: "Nanosaber"
+	quest.70C3F06A43A846F5.title: "Nano tools"
+	quest.3FA06D9A02F8E7B5.title: "Advanced Jetpack"
+	quest.6574D6676D05FFEA.title: "Quantum suit"
+	chapter.173EF353072E56E6.title: "&eIU: высокие технологии и космос"
+	quest.411F56F2688FFBA3.title: "Circuit"
+	quest.183A5A00EE0F686A.title: "Advanced Circuit"
+	quest.1E2F7D5FFCFF69C3.title: "Circuit Manufacturer"
+	quest.3BCAA5B8E042CD6B.title: "Nano Circuit"
+	quest.53AE3D50FC7B8921.title: "Quantum Circuit"
+	quest.4A520900B5454BD6.title: "Spectral Circuit"
+	quest.437903AFFEF05932.title: "Photonic Circuit"
+	quest.3C786116D59A5D41.title: "Advanced Core"
+	quest.443969FA7B20A7CA.title: "Hybrid Core"
+	quest.45AE216FA56AF413.title: "Perfect Core"
+	quest.2E1CDBE612F43112.title: "Quantum Core"
+	quest.455354D4B860EACF.title: "Molecular Transformer"
+	quest.3EB01E539766F789.title: "Solarite Piece"
+	quest.3F69A59DA1939FDB.title: "Solarite"
+	quest.4BDE0CC722FE8EA8.title: "Matter Fabricator"
+	quest.745F2E2086865A30.title: "Scanner"
+	quest.56B45F60917CA77E.title: "Replicator"
+	quest.608296723649B97F.title: "Teleporter"
+	quest.483692B5AF9516D7.title: "Quantum Quarry"
+	quest.4D6BF58CCB295A52.title: "Research Table"
+	quest.7F1C0A6500C734C0.title: "Space Research Table"
+	quest.255D810DAEEFC82B.title: "Rocket"
+	quest.5686E04C64A4F12B.title: "Probe Assembler"
+	quest.636127F64475E3C7.title: "Satellite Assembler"
+	quest.1C05A60E3C847887.title: "Rover Assembler"
+	quest.7699F3749DD82BC7.title: "Cropsticks"
+	quest.2BD022A2167657C2.title: "Crop automation"
+	quest.69D0EB50503774B2.title: "Apiary"
+	quest.32A6A085DC26128D.title: "Bee Apothecary"
 }
