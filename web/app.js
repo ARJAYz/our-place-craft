@@ -65,12 +65,13 @@ function render() {
       <div class="art" style="background-image:url(${artOf(i)})"></div>
       <div class="cbody"><h4>${esc(i.name)}</h4><div class="sub">${esc(subOf(i))}</div>
         <div class="muted">${i.server ? "Сервер: " + esc(i.server) : "Без сервера"} · ${Math.round(i.ram_mb / 1024)} ГБ</div>
-        <div class="acts"><button class="go" data-act="play">▶ Играть</button><button data-act="folder">Папка</button><button data-act="edit">Настройки и загрузчик</button></div>
+        <div class="acts"><button class="go" data-act="play">▶ Играть</button>${i.server || isOPC(i) ? `<button data-act="solo" title="Без входа на сервер">Одиночная</button>` : ""}<button data-act="folder">Папка</button><button data-act="edit" title="Настройки и загрузчик">Настройки</button></div>
       </div></div>`).join("") + `<div class="card empty" onclick="openCreate()"><b style="font-size:40px;color:#3f86d9">+</b><br>Создать сборку</div>`;
   $$("#grid .card[data-id]").forEach(c => {
     c.onclick = e => {
       const id = c.dataset.id, act = e.target.dataset?.act;
       if (act === "play") { e.stopPropagation(); select(id).then(() => play(id, !!(S.instances.find(x => x.id === id)?.server || isOPC(S.instances.find(x => x.id === id))))); }
+      else if (act === "solo") { e.stopPropagation(); select(id).then(() => play(id, false)); }
       else if (act === "folder") { e.stopPropagation(); api("OpenFolder", id); }
       else if (act === "edit") { e.stopPropagation(); openEdit(id); }
       else { select(id); show("home"); }
@@ -154,7 +155,7 @@ function renderServers() {
         <div class="menu" id="menu-${v.id}">${S.instances.some(x => x.id === v.instance) ? `<button data-repair="${v.instance}">🔧 Починить сборку…</button>` : ""}${v.instance !== "our-place-craft" && v.id !== "adventure" && S.instances.some(x => x.id === v.instance) ? `<button data-edit="${v.instance}">Загрузчик и настройки…</button>` : ""}<button data-hide="${v.id}">Скрыть с главной…</button><button data-folder="${v.instance}">Открыть папку</button></div></div>
       <div class="cbody"><h2>${esc(v.name)}</h2><div class="sub">${esc(v.subtitle)}${clientLoader(v)}</div>
         <p class="muted desc">${esc(v.desc)}</p>
-        ${v.installed ? `<button class="play main" style="width:100%" data-play="${v.instance}" ${busy ? "disabled" : ""}>ИГРАТЬ</button>`
+        ${v.installed ? `<button class="play main" style="width:100%" data-play="${v.instance}" ${busy ? "disabled" : ""}>ИГРАТЬ</button><button class="solo" data-solo="${v.instance}" ${busy ? "disabled" : ""} title="Запустить сборку без входа на сервер — в меню выберите «Одиночная игра»">🧍 Одиночная игра</button>`
           : `<button class="play" style="width:100%" data-install ${busy ? "disabled" : ""}>⬇ УСТАНОВИТЬ СБОРКУ</button>`}
         ${v.id === "adventure" && v.installed && PI.latest && PI.version && PI.latest !== PI.version && !PI.legacy
           ? `<div class="upd">Есть обновление сборки от ${esc(fmtVer(PI.latest))} — скачается при запуске</div>` : ""}
@@ -163,6 +164,7 @@ function renderServers() {
     (hid.length ? `<div class="hidden-note">Скрыто серверов: ${hid.length}. <button data-page-go="settings">Показать в настройках</button></div>` : "") +
     (!vis.length && !hid.length ? `<div class="card"><div class="cbody" style="margin-top:0;padding-top:16px"><h2>Серверов нет</h2><p class="muted desc">Создайте сборку во вкладке «Сборки».</p></div></div>` : "");
   $$("[data-play]", box).forEach(b => b.onclick = () => select(b.dataset.play).then(() => play(b.dataset.play, true)));
+  $$("[data-solo]", box).forEach(b => b.onclick = () => select(b.dataset.solo).then(() => play(b.dataset.solo, false)));
   $$("[data-install]", box).forEach(b => b.onclick = () => installPack());
   $$("[data-more]", box).forEach(b => b.onclick = e => { e.stopPropagation(); const m = $("#menu-" + b.dataset.more); const on = !m.classList.contains("on"); closeMenus(); m.classList.toggle("on", on); });
   $$("[data-repair]", box).forEach(b => b.onclick = () => { closeMenus(); openRepair(b.dataset.repair); });
