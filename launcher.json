@@ -1,6 +1,6 @@
 {
-  "version": "20261110-2245",
-  "sha256": "4eb77ee9dbd94ddbdfb4ff26f3a77b665eb76f9c637063635b939a6ed336ed84",
-  "size": 6275618,
-  "notes": "Полоса игроков над опытом (PlayerLocatorPlus) + выключатель в твиках"
+  "version": "20261121-2310",
+  "sha256": "17fd0d41781558d1bd8ceefc748fdf8c36cbd0fbe5534fca3ee3c197641ddb1e",
+  "size": 6275951,
+  "notes": "Кнопка «Одиночная игра» у сборок с сервером"
 }
