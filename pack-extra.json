@@ -1,5 +1,5 @@
 {
-  "version": "20261121-1",
+  "version": "20261121-2",
   "notes": "Industrial Upgrade вместо Industrial Foregoing, квесты IU, исправлены квесты дизельных двигателей",
   "files": [
     {
@@ -89,8 +89,8 @@
     {
       "path": "config/ftbquests/quests/lang/ru_ru.snbt",
       "file": "ru_ru.snbt",
-      "sha1": "27a0cbf04f31f82f113bc257e6b34c8c0440fa92",
-      "size": 1161105
+      "sha1": "2f47420f0107a610f0ff90f4ae28fdb32fe16775",
+      "size": 1161439
     },
     {
       "path": "config/ftbquests/quests/lang/en_us.snbt",
@@ -101,8 +101,8 @@
     {
       "path": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
       "file": "config__ftbquests__quests__chapters__industrial_foregoing.snbt",
-      "sha1": "62366ba168f25fb2d6cc67c86a036479ca6a3bcc",
-      "size": 9493
+      "sha1": "688d01462f18db53924b83309ed9455a8eda1a76",
+      "size": 9701
     },
     {
       "path": "config/ftbquests/quests/chapters/productive_bees.snbt",

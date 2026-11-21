@@ -14,6 +14,7 @@
 		{
 			id: "6D723515684AD069"
 			rewards: [
+				{ id: "44161E507E41E508", item: { count: 1, id: "industrialupgrade:sensor/sensor" }, type: "item" }
 				{ id: "40BC97EE98224D13", type: "xp_levels", xp_levels: 1 }
 			]
 			shape: "gear"
@@ -298,6 +299,7 @@
 			dependencies: ["53772F2A51677AFB"]
 			id: "074A38B2F7C8972F"
 			rewards: [
+				{ id: "2176E87A0C24C363", item: { count: 1, id: "createoreexcavation:vein_finder" }, type: "item" }
 				{ id: "659F9C2DE17C8BE5", type: "xp_levels", xp_levels: 3 }
 			]
 			shape: "circle"
