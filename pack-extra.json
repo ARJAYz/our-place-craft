@@ -1,6 +1,6 @@
 {
-  "version": "20261121-2",
-  "notes": "Industrial Upgrade вместо Industrial Foregoing, квесты IU, исправлены квесты дизельных двигателей",
+  "version": "20261122-1",
+  "notes": "Руды Industrial Upgrade отключены в обычном мире (металлы IU — только бурами из жил), +4 жилы, обновлены квесты",
   "files": [
     {
       "path": "mods/createdieselgenerators-1.21.1-1.3.15.jar",
@@ -89,14 +89,14 @@
     {
       "path": "config/ftbquests/quests/lang/ru_ru.snbt",
       "file": "ru_ru.snbt",
-      "sha1": "2f47420f0107a610f0ff90f4ae28fdb32fe16775",
-      "size": 1161439
+      "sha1": "51c517643d2d40b833f13e56b34bdfbc4ad66ab0",
+      "size": 1162227
     },
     {
       "path": "config/ftbquests/quests/lang/en_us.snbt",
       "file": "en_us.snbt",
-      "sha1": "ef476da58c1248009c0e4a90aad8e7b1bd9ad4a6",
-      "size": 722785
+      "sha1": "fb5a4d7e3e3ba390438819bde251c7c4bae6f873",
+      "size": 723255
     },
     {
       "path": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
@@ -145,6 +145,30 @@
       "file": "config__ftbquests__quests__chapters__iu_hitech.snbt",
       "sha1": "934779c65c2ef293beaf05e831e305f051e45f86",
       "size": 9919
+    },
+    {
+      "path": "kubejs/server_scripts/iu_ores_extra.js",
+      "file": "kubejs__server_scripts__iu_ores_extra.js",
+      "sha1": "432203c62ec1b55e92d2526cd2647a5167f4269e",
+      "size": 3511
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/neoforge/biome_modifier/global_ores_modifier.json",
+      "file": "kubejs__data__industrialupgrade__neoforge__biome_modifier__global_ores_modifier.json",
+      "sha1": "4ba5bd3657e944a1dd48406ff93c91844213530b",
+      "size": 29
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/neoforge/biome_modifier/vein_modifier.json",
+      "file": "kubejs__data__industrialupgrade__neoforge__biome_modifier__vein_modifier.json",
+      "sha1": "4ba5bd3657e944a1dd48406ff93c91844213530b",
+      "size": 29
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/neoforge/biome_modifier/remove_default_ores.json",
+      "file": "kubejs__data__industrialupgrade__neoforge__biome_modifier__remove_default_ores.json",
+      "sha1": "4ba5bd3657e944a1dd48406ff93c91844213530b",
+      "size": 29
     }
   ],
   "remove": [
