@@ -7028,7 +7028,7 @@
 		"A shot needs a &6projectile&r and a &6Powder Charge&r. Load them with a ram rod or cannon loader, then apply redstone."
 	]
 	quest.601CC3888976E334.quest_desc: [
-		"&bCreate Ore Excavation&r: infinite &eore veins&r lie underground. The &6Vein Finder&r shows which one is below you. Industrial Upgrade metals are not found in the ground — they come only from drills on such veins."
+		"&bCreate Ore Excavation&r: infinite &eore veins&r lie underground. The &6Vein Finder&r shows which one is below you."
 	]
 	quest.62617171444EA7C8.quest_desc: [
 		"The &6Drilling Machine&r with a drill mines a vein while powered — veins are huge; the Extractor does the same for fluid veins."
@@ -8143,12 +8143,12 @@
 	quest.074A38B2F7C8972F.quest_subtitle: "New metals"
 	quest.074A38B2F7C8972F.quest_desc: [
 		"IU adds dozens of metals: titanium, tungsten, chromium, cobalt and more."
-		"&cNote:&r IU ores no longer generate in the ground of the overworld. IU metals can be obtained &eonly with drills&r: find a vein with the vein finder and place a Create Ore Excavation drill on it."
+		"&aIU ores generate in new chunks. &rTo avoid duplicate ores, IU does not generate tin, lead, silver, nickel, aluminium, zinc, uranium and osmium: they come from other mods' ores and their items are unified into one. All other IU ores (including lithium, boron and beryllium) are mined with a pickaxe as usual. Additionally you can get them from &edrills&r on Create Ore Excavation veins: find them with the vein finder."
 	]
 	quest.4C13306AEA01BFF1.title: "Drill veins"
 	quest.4C13306AEA01BFF1.quest_subtitle: "IU metals in the old world"
 	quest.4C13306AEA01BFF1.quest_desc: [
-		"IU ore cannot be mined from the ground with a pickaxe — it comes &eonly from drills&r on Create Ore Excavation veins. There are 18 veins in the overworld (bauxite, titanium, tungsten, chromium, cobalt, magnesium, platinum group, silver, mikhail, spinel, germanium, rare earths, refractory and heavy metals, light metals, sulfur, thorium, gems). Find them with the vein finder."
+		"Drills on Create Ore Excavation veins are an additional way to get IU materials. There are 18 veins in the overworld (bauxite, titanium, tungsten, chromium, cobalt, magnesium, platinum group, silver, mikhail, spinel, germanium, rare earths, refractory and heavy metals, light metals, sulfur, thorium, gems). Find them with the vein finder."
 	]
 	quest.02A0CF86E2824B4B.title: "Combined Macerator"
 	quest.02A0CF86E2824B4B.quest_subtitle: "Ore ×3"

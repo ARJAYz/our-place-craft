@@ -1,0 +1,21 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1793300000000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+menu_background {
+  background_type = image
+  instance_identifier = opc_background_dim
+  image_path = [source:local]/config/fancymenu/assets/menu_bg_dim.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+}

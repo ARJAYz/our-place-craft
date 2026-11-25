@@ -1,6 +1,6 @@
 {
-  "version": "20261122-1",
-  "notes": "Руды Industrial Upgrade отключены в обычном мире (металлы IU — только бурами из жил), +4 жилы, обновлены квесты",
+  "version": "20261125-1",
+  "notes": "Новое оформление меню (фоны, логотип, кнопки) в стиле лаунчера; руды Industrial Upgrade снова генерируются в мире (без дублей с другими модами), добываются киркой; радиация больше не накапливается; обновлены квесты",
   "files": [
     {
       "path": "mods/createdieselgenerators-1.21.1-1.3.15.jar",
@@ -89,14 +89,14 @@
     {
       "path": "config/ftbquests/quests/lang/ru_ru.snbt",
       "file": "ru_ru.snbt",
-      "sha1": "51c517643d2d40b833f13e56b34bdfbc4ad66ab0",
-      "size": 1162227
+      "sha1": "de834083725c5bc6ef1d8ea4a3c192aadec7b679",
+      "size": 1162054
     },
     {
       "path": "config/ftbquests/quests/lang/en_us.snbt",
       "file": "en_us.snbt",
-      "sha1": "fb5a4d7e3e3ba390438819bde251c7c4bae6f873",
-      "size": 723255
+      "sha1": "0be16963ac0ea2c2b41360e0e7417da77da1d845",
+      "size": 723339
     },
     {
       "path": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
@@ -155,20 +155,170 @@
     {
       "path": "kubejs/data/industrialupgrade/neoforge/biome_modifier/global_ores_modifier.json",
       "file": "kubejs__data__industrialupgrade__neoforge__biome_modifier__global_ores_modifier.json",
-      "sha1": "4ba5bd3657e944a1dd48406ff93c91844213530b",
-      "size": 29
+      "sha1": "2c035d918b56a4bf92853f1ec05aaea224566963",
+      "size": 178
     },
     {
       "path": "kubejs/data/industrialupgrade/neoforge/biome_modifier/vein_modifier.json",
       "file": "kubejs__data__industrialupgrade__neoforge__biome_modifier__vein_modifier.json",
-      "sha1": "4ba5bd3657e944a1dd48406ff93c91844213530b",
-      "size": 29
+      "sha1": "bff789121f8f6f70c390b5f7371a16ad3404f274",
+      "size": 25
     },
     {
       "path": "kubejs/data/industrialupgrade/neoforge/biome_modifier/remove_default_ores.json",
       "file": "kubejs__data__industrialupgrade__neoforge__biome_modifier__remove_default_ores.json",
-      "sha1": "4ba5bd3657e944a1dd48406ff93c91844213530b",
-      "size": 29
+      "sha1": "5b08968f6f380b27528ada3363ee13d7dc4c92bf",
+      "size": 763
+    },
+    {
+      "path": "config/fancymenu/assets/btn_opc.png",
+      "file": "config__fancymenu__assets__btn_opc.png",
+      "sha1": "48b10de01b886b13d7fd153e5d051054214ab409",
+      "size": 6281
+    },
+    {
+      "path": "config/fancymenu/assets/btn_opc_hover.png",
+      "file": "config__fancymenu__assets__btn_opc_hover.png",
+      "sha1": "aad8a851805eafc981c5a6ee4f943c326ece20d5",
+      "size": 6290
+    },
+    {
+      "path": "config/fancymenu/assets/btn_opc_off.png",
+      "file": "config__fancymenu__assets__btn_opc_off.png",
+      "sha1": "4db0aebc3738713e82edee56f12d661289c2cbfd",
+      "size": 6275
+    },
+    {
+      "path": "config/fancymenu/assets/loading_bg.png",
+      "file": "config__fancymenu__assets__loading_bg.png",
+      "sha1": "3884a6bb1997aa3d4951f21f0e617f0fcd228ae1",
+      "size": 2684190
+    },
+    {
+      "path": "config/fancymenu/assets/menu_bg.png",
+      "file": "config__fancymenu__assets__menu_bg.png",
+      "sha1": "ab9bf5a89b9c0cac6ae536ccc7e0fb1a88380547",
+      "size": 3348335
+    },
+    {
+      "path": "config/fancymenu/assets/menu_bg_dim.png",
+      "file": "config__fancymenu__assets__menu_bg_dim.png",
+      "sha1": "e4edfad4606dcb427ce8d51cb9b9bff36e97e8d4",
+      "size": 857914
+    },
+    {
+      "path": "config/fancymenu/assets/our_place_logo.png",
+      "file": "config__fancymenu__assets__our_place_logo.png",
+      "sha1": "7a51aaca23ad6cd39078e7b7b74f54135c5567fa",
+      "size": 870867
+    },
+    {
+      "path": "config/fancymenu/assets/sign_frame.png",
+      "file": "config__fancymenu__assets__sign_frame.png",
+      "sha1": "d72f84c6dcd309466682e0b7428e8fc7112489b5",
+      "size": 5285
+    },
+    {
+      "path": "config/fancymenu/customizablemenus.txt",
+      "file": "config__fancymenu__customizablemenus.txt",
+      "sha1": "8936e3c6d74bc3af80d4678437f4081bea3f7384",
+      "size": 2251
+    },
+    {
+      "path": "config/fancymenu/customization/opc_loading_level.txt",
+      "file": "config__fancymenu__customization__opc_loading_level.txt",
+      "sha1": "cc4416bf970bcd757a9d0c38cb0018b8b0eafaf1",
+      "size": 490
+    },
+    {
+      "path": "config/fancymenu/customization/opc_loading_receiving.txt",
+      "file": "config__fancymenu__customization__opc_loading_receiving.txt",
+      "sha1": "e22293936b6455dae223d49fbb870cd6c1d4cc5f",
+      "size": 492
+    },
+    {
+      "path": "config/fancymenu/customization/our_place_title.txt",
+      "file": "config__fancymenu__customization__our_place_title.txt",
+      "sha1": "01650b8cbea7b5085f9f89dfb97630747d9ee369",
+      "size": 3719
+    },
+    {
+      "path": "config/fancymenu/customization/universal_dim.txt",
+      "file": "config__fancymenu__customization__universal_dim.txt",
+      "sha1": "a8db9a8130a1d5db151f1cb5148cd374214ccbd5",
+      "size": 496
+    },
+    {
+      "path": "config/industrialupgrade-common.toml",
+      "file": "config__industrialupgrade-common.toml",
+      "sha1": "6424df0e9338fc9be00720e1b2fcf8a68df9c3ed",
+      "size": 118044
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/aluminium.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__aluminium.json",
+      "sha1": "2bd87aec0b028b7bd64cb609b8900c8087678dca",
+      "size": 250
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/beryllium.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__beryllium.json",
+      "sha1": "8ef1c0977baef7e5a17136ceb4186172cd56c661",
+      "size": 253
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/bor.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__bor.json",
+      "sha1": "579e6e026b9fa0a700ca6d0a64084beba07600d7",
+      "size": 247
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/lead.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__lead.json",
+      "sha1": "8529d2927c3b0aa7c368fae18b05c48d614e29f3",
+      "size": 248
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/lithium.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__lithium.json",
+      "sha1": "c1ba0a222724e2901a0a129ae7fbef833ff3f59d",
+      "size": 251
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/nickel.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__nickel.json",
+      "sha1": "fe7e56aba9228240cfb9cf0a733e1edc8f80eb6b",
+      "size": 247
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/osmium.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__osmium.json",
+      "sha1": "5be590d200de05ae9bc28dba291fa01d7e464c22",
+      "size": 248
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/silver.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__silver.json",
+      "sha1": "62a8d57d9719b45c1cad7c0bd3c3373f981db923",
+      "size": 247
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/tin.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__tin.json",
+      "sha1": "6238d8c7542777f0f787b559e25efaa6d8e4cf90",
+      "size": 247
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/uranium.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__uranium.json",
+      "sha1": "9192f92de1766e443f09fa92a3134cbad982b3fd",
+      "size": 251
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/orespawn/zinc.json",
+      "file": "kubejs__data__industrialupgrade__orespawn__zinc.json",
+      "sha1": "970be6ee689fd124ea2156de60499ec245e1ec1c",
+      "size": 245
     }
   ],
   "remove": [
